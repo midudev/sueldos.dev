@@ -1,0 +1,3 @@
+export const SpainFlag = () => (
+  <svg width='56' height='56' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 72 72'><path fill='#f1b31c' d='M5 17h62v38H5z' /><path fill='#d22f27' d='M23 33v7a2.0059 2.0059 0 0 1-2 2h-4a2.0059 2.0059 0 0 1-2-2v-7M5 17h62v9H5zM5 46h62v9H5z' /><path fill='#f1b31c' d='M19 33h4v4h-4z' /><circle cx='19' cy='37' r='1.5' fill='#6a462f' /><g fill='none' stroke='#6a462f' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2'><path d='M27 33v9M11 33v9M15 30a8.5678 8.5678 0 0 1 4-1M23 30a8.5678 8.5678 0 0 0-4-1M15 33h8M23 33v7a2.0059 2.0059 0 0 1-2 2h-4a2.0059 2.0059 0 0 1-2-2v-7M10 42h2M26 42h2' /></g><path fill='none' stroke='#000' strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M5 17h62v38H5z' /></svg>
+)
