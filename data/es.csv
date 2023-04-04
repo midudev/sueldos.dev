@@ -1,0 +1,751 @@
+timestamp,type,country,outside,salary,currency,domain,experience,studies,gender,happy,remote
+11/03/2023 3:31:06,Consultora,España,,26000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 18:05:47,Consultora,España,,32000,EUR,Full Stack,Senior (+5 años),Autodidacta,Hombre,4,"Sí, 100% remoto"
+9/03/2023 18:06:00,Start Up,España,,15000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,1,"Sí, 100% remoto"
+9/03/2023 18:23:25,Empresa de producto,España,,73000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+11/03/2023 5:52:20,Start Up,España,,19000,EUR,Front End,Trainee (0-1 años),Bootcamp,Hombre,4,Tengo que ir a la oficina de forma regular
+9/03/2023 18:06:49,Consultora,España,Inetum,30500,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 18:07:13,Consultora,España,,50000,EUR,Full Stack en SAP (JS + CSS + HTML + ABAP),Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 18:07:53,Consultora,España,,33000,EUR,Full Stack,Junior (1-4 años),Bootcamp,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:08:08,Empresa de producto,España,EEUU,52000,USD,Seguridad,Junior (1-4 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+9/03/2023 18:08:13,Consultora,España,,14000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Mujer,2,"Sí, 100% remoto"
+9/03/2023 18:08:18,Consultora,España,,50000,EUR,Tech Lead,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 18:08:23,Empresa de producto,España,,27000,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 18:08:29,Consultora,España,,45000,EUR,Front End,Senior (+5 años),Autodidacta,Hombre,4,"Sí, 100% remoto"
+10/03/2023 21:16:14,Consultora,España,,23000,EUR,Otros (Api Developer),Junior (1-4 años),Formación reglada o universitaria,Hombre,1,"Sí, 100% remoto"
+9/03/2023 18:08:46,Consultora,España,,21500,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,1,"Sí, 100% remoto"
+9/03/2023 18:09:34,Practicas,España,,4000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:10:06,Empresa de producto,España,,27000,EUR,Full Stack,Senior (+5 años),Autodidacta,Hombre,3,"Sí, 100% remoto"
+10/03/2023 15:07:53,Consultora,España,,20000,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 15:28:49,Consultora,España,,15000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 14:34:48,Start Up,España,,27000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 19:10:24,Consultora,España,Alemania,28000,EUR,Full Stack,Trainee (0-1 años),Autodidacta,Hombre,2,Tengo que ir a la oficina de forma regular
+9/03/2023 18:12:01,Consultora,España,,45000,EUR,Back End,Senior (+5 años),Autodidacta,Hombre,4,"Sí, 100% remoto"
+9/03/2023 18:12:52,Empresa de producto,España,,43000,EUR,Front End,Junior (1-4 años),Autodidacta,Mujer,5,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:12:55,Empresa de producto,España,,20000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 13:35:48,Consultora,España,,20000,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 9:21:29,Consultora,España,,30000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 20:41:56,Empresa de producto,España,,19500,EUR,Front End,Junior (1-4 años),Bootcamp,Mujer,3,Tengo que ir a la oficina de forma regular
+9/03/2023 18:13:27,Empresa de producto,España,,30000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:14:33,Start Up,España,Reino Unido,20000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,3,"Sí, 100% remoto"
+10/03/2023 18:26:15,Consultora,España,,34000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:16:12,Consultora,España,Inglaterra,60000,EUR,QA,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 19:17:57,Empresa de producto,España,,35000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 18:17:50,Start Up,España,,17000,EUR,Front End,Trainee (0-1 años),Bootcamp,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:17:55,Empresa de producto,España,,42000,EUR,Front End,Junior (1-4 años),Bootcamp,Hombre,5,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:17:56,Consultora,España,,19000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:17:57,Empresa de producto,España,,40000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 18:17:58,Empresa de producto,España,,20400,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Tengo que ir a la oficina de forma regular
+9/03/2023 18:18:06,Empresa satélite,España,,25000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,1,Tengo que ir a la oficina de forma regular
+9/03/2023 18:18:08,Empresa de producto,España,,42000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 18:18:14,Consultora,España,,21000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:18:17,Consultora,España,,27000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:18:19,Empresa de producto,España,,46000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+9/03/2023 18:18:24,Consultora,España,,22000,EUR,Mobile,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:18:30,Consultora,España,,42800,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:18:35,Consultora,España,,38000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:18:44,Consultora,España,,24500,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Tengo que ir a la oficina de forma regular
+9/03/2023 18:18:49,Agencia,España,,29000,EUR,Full Stack,Junior (1-4 años),Bootcamp,Hombre,1,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 18:18:59,Consultora,España,,24000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 18:19:33,Empresa de producto,España,,43000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+9/03/2023 18:19:37,Consultora,España,,33000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:19:37,Consultora,España,,28000,EUR,Base de datos,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 18:19:39,Consultora,España,Inglaterra o Alemania,32000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:19:39,Consultora,España,,55000,EUR,Blockchain + Full Stack,Senior (+5 años),Bootcamp ,Hombre,4,"Sí, 100% remoto"
+9/03/2023 18:19:39,Agencia,España,,55000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,5,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 18:19:47,Consultora,España,,33000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:19:48,Empresa de producto,España,,18000,EUR,Front End,Junior (1-4 años),Bootcamp,Mujer,3,Tengo que ir a la oficina de forma regular
+9/03/2023 18:19:52,Empresa de producto,España,,45000,EUR,Swift,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 18:19:54,Consultora,España,,28000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Tengo que ir a la oficina de forma regular
+9/03/2023 18:20:02,Consultora,España,ServiZurich,38000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:20:12,Consultora,España,,32000,EUR,Desarrollo sobre ERP SAP Business One ,Senior (+5 años),Formación reglada o universitaria,Hombre,5,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 18:20:16,Empresa de producto,España,Oracle,48000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:20:16,Consultora,España,,24000,EUR,QA,Trainee (0-1 años),Bootcamp,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:20:20,Consultora,España,,40000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:20:23,Consultora,España,,18000,EUR,Data Analyst,Junior (1-4 años),Formación reglada o universitaria,Hombre,1,"Sí, 100% remoto"
+9/03/2023 18:20:27,Agencia,España,,25000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,2,"Sí, 100% remoto"
+9/03/2023 18:20:30,Empresa de producto,España,,65000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 18:20:38,Empresa de producto,España,,31000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,1,"Sí, 100% remoto"
+9/03/2023 18:20:45,Empresa de producto,España,,20000,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 18:20:49,Consultora,España,,20000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,1,"Sí, 100% remoto"
+9/03/2023 18:20:50,Empresa de producto,España,,23184,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 18:20:52,Consultora,España,,23000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:20:52,Consultora,España,,24500,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:21:02,Consultora,España,,33000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:21:06,Start Up,España,,45000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+9/03/2023 18:21:09,Consultora,España,,15000,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:21:12,Empresa de producto,España,,50000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 18:21:12,Empresa de producto,España,,22000,EUR,QA tester,Trainee (0-1 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 18:21:14,Empresa de producto,España,,37000,EUR,Analytics Engineer,Senior (+5 años),Bootcamp,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 18:21:15,Consultora,España,,27000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:21:19,Empresa de producto,España,,40000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 18:21:25,Empresa de producto,España,,18000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,1,"Sí, 100% remoto"
+9/03/2023 18:21:30,Consultora,España,,18600,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 18:21:33,Empresa de producto,España,,22000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,2,Tengo que ir a la oficina de forma regular
+9/03/2023 18:21:34,Consultora,España,,23000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,4,"Sí, 100% remoto"
+9/03/2023 18:21:36,Consultora,España,,24000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 18:21:48,Consultora,España,,23000,EUR,Back End / Mobile,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 18:21:48,Empresa de producto,España,Austria,46200,EUR,Full Stack,Senior (+5 años),Bootcamp,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 18:21:49,Consultora,España,,25500,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 18:21:50,Empresa de producto,España,,32000,EUR,Testing,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:21:50,Consultora,España,,20000,EUR,Bpm,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:21:55,Consultora,España,,19000,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:21:58,Consultora,España,,18500,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 18:22:06,Consultora,España,,22000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 18:22:07,Consultora,España,,25000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 18:22:12,Empresa de producto,España,,36000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 18:22:42,Empresa de producto,España,,39000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 18:22:57,Consultora,España,,22000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:22:57,Empresa de producto,España,,32500,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:23:03,Empresa de producto,España,,35000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:23:05,Empresa de producto,España,,23500,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:23:09,Consultora,España,,16000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 18:23:21,Empresa de producto,España,,40000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Mujer,4,"Sí, 100% remoto"
+9/03/2023 18:23:25,Empresa de producto,España,,40000,EUR,Front End,Senior (+5 años),Autodidacta,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:23:30,Consultora,España,,38000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:24:16,Start Up,España,,25000,EUR,Front End,Junior (1-4 años),Bootcamp,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:24:33,Consultora,España,,36000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:24:54,Empresa de producto,España,,35000,EUR,"Front end, back End, diseño, soporte.",Senior (+5 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 18:24:56,Consultora,España,,20000,EUR,Full Stack,Trainee (0-1 años),Bootcamp,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:25:17,Consultora,España,,40000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,5,Tengo que ir a la oficina de forma regular
+9/03/2023 18:26:29,Aseguradora,España,Francia,70000,EUR,Team lead,Senior (+5 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 18:27:12,Empresa de producto,España,,80000,EUR,Data Engineer,Senior (+5 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+9/03/2023 18:27:32,Practicas,España,,7200,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Mujer,1,"Sí, 100% remoto"
+9/03/2023 18:28:50,Banca,España,,42000,EUR,Full Stack,Senior (+5 años),Autodidacta,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 18:28:54,Consultora,España,,31000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:30:18,Empresa de producto,España,,27000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:30:31,Consultora,España,,56000,EUR,Mobile,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 18:30:33,Freelance,España,,57000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 18:31:11,Empresa de producto,España,,38000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 18:31:56,Empresa de producto,España,,24000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:33:06,Consultora,España,,37000,EUR,Full Stack,Senior (+5 años),Autodidacta,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:33:17,Consultora,España,,26000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,1,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 18:35:28,Empresa de producto,España,,52000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:35:29,Consultora,España,,23000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,1,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 18:36:32,Empresa de producto,España,,31000,EUR,QA Tester,Senior (+5 años),Autodidacta,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:36:34,Consultora,España,,24000,EUR,Back End,Junior (1-4 años),Autodidacta,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:36:49,Consultora,España,,38000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:42:03,Empresa de producto,España,,30000,EUR,Full Stack,Junior (1-4 años),Autodidacta,Hombre,2,"Sí, 100% remoto"
+9/03/2023 18:43:19,Consultora,España,,24000,EUR,Front End,Junior (1-4 años),Bootcamp,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:45:47,Centro Tecnologico,España,,28000,EUR,Investigador de IA,Junior (1-4 años),Formación reglada o universitaria,Hombre,1,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:46:48,Consultora,España,,36000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Tengo que ir a la oficina de forma regular
+9/03/2023 18:46:50,Empresa de producto,españa,,20700,EUR,Front End,Junior (1-4 años),Bootcamp,Mujer,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 18:47:00,Consultora,España,,18000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 18:47:48,Empresa de producto,España,USA,46280,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 18:48:28,Empresa de producto,España,Reino Unido,77000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:48:53,Consultora,España,,24000,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:49:37,Empresa de producto,España,,34000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 18:54:48,Consultora,España,,75000,EUR,Tech lead,Senior (+5 años),Autodidacta,Hombre,4,"Sí, 100% remoto"
+9/03/2023 18:55:52,Consultora,España,,18000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 19:00:57,Empresa de producto,España,,70000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+9/03/2023 19:01:34,Consultora,España,,38000,EUR,Front End,Junior (1-4 años),Bootcamp,Hombre,2,"Sí, 100% remoto"
+9/03/2023 19:07:32,Consultora,España,,47000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 19:08:25,Consultora,España,,45000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 19:08:44,Consultora,España,,25000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:09:01,Start Up,España,,25000,EUR,Front End,Trainee (0-1 años),Formación reglada o universitaria,Mujer,5,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 19:09:04,Consultora,España,,25000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 19:09:07,Consultora,España,,30000,EUR,Full Stack,Junior (1-4 años),Autodidacta,Hombre,4,"Sí, 100% remoto"
+9/03/2023 19:09:14,Consultora,España,,18000,EUR,Front End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,2,Tengo que ir a la oficina de forma regular
+9/03/2023 19:09:19,Empresa de producto,España,,52000,EUR,Front End,Junior (1-4 años),Bootcamp,Hombre,5,"Sí, 100% remoto"
+9/03/2023 19:09:24,Consultora,España,,30000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:09:24,Consultora,España,,25000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 19:09:24,Empresa de producto,España,,45000,EUR,BI,Senior (+5 años),Autodidacta,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:09:25,Start Up,España,,40000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 19:09:25,Start Up,España,Alemania,30000,EUR,Full Stack,Junior (1-4 años),Grado superior de Desarrollo de Aplicaciones Web,Hombre,2,"Sí, 100% remoto"
+9/03/2023 19:09:25,Consultora,España,,37000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 19:09:28,Consultora,España,,20000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:09:30,Consultora,España,,18000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,2,Tengo que ir a la oficina de forma regular
+9/03/2023 19:09:33,Empresa de producto,España,,31000,EUR,Front End,Junior (1-4 años),Bootcamp,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 19:09:36,Consultora,España,,29000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 19:09:39,Empresa de producto,España,,20000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,5,Tengo que ir a la oficina de forma regular
+9/03/2023 19:09:40,Start Up,España,,41000,EUR,App developer,Senior (+5 años),Autodidacta,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:09:41,Consultora,España,,35000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:09:42,Consultora,España,,17500,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,1,"Sí, 100% remoto"
+9/03/2023 19:09:43,Empresa de producto,España,,40000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 19:09:45,Start Up,España,,14000,EUR,Front End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,1,"Sí, 100% remoto"
+9/03/2023 19:09:45,Empresa de producto,españa,,55000,EUR,Front End,Senior (+5 años),Autodidacta,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 19:09:45,Empresa de producto,España,,32000,EUR,Front End,Senior (+5 años),Autodidacta,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:09:49,Empresa de producto,España,,46000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+9/03/2023 19:09:50,Start Up,España,Francia,60000,EUR,Back End,Junior (1-4 años),Autodidacta,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:09:51,Empresa de producto,España,,70000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 19:09:53,Empresa de producto,España,,18000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Tengo que ir a la oficina de forma regular
+9/03/2023 19:09:56,Consultora,España,,43000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:09:58,Consultora,España,,31000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,1,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 19:10:02,Empresa de producto,España,,38000,EUR,Front End,Junior (1-4 años),Bootcamp,Hombre,3,Tengo que ir a la oficina de forma regular
+9/03/2023 19:10:03,Consultora,España,,20500,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,2,"Sí, 100% remoto"
+9/03/2023 19:10:06,Empresa de producto,España,,48000,EUR,Front End,Senior (+5 años),Autodidacta,Hombre,5,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 19:10:06,Consultora,España,,19000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,1,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 19:10:12,Consultora,España,"A medias, somos una sede española de una empresa Alemana",22500,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 19:10:13,Consultora,España,,30000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:10:16,Consultora,España,Es multinacional,32300,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 19:10:19,Consultora,España,,40000,EUR,PM,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:10:20,Empresa de producto,España,,43000,EUR,Tech Lead,Senior (+5 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 19:10:21,Agencia,España,,34500,EUR,Full Stack,Senior (+5 años),Autodidacta,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 19:10:24,Empresa de producto,España,,46000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:10:30,Consultora,España,,18000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,1,Tengo que ir a la oficina de forma regular
+9/03/2023 19:10:31,Empresa de producto,España,,27000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,4,Tengo que ir a la oficina de forma regular
+9/03/2023 19:10:33,Consultora,España,,18000,EUR,Back End,Trainee (0-1 años),Autodidacta,Hombre,1,"Sí, 100% remoto"
+9/03/2023 19:10:43,Consultora,España,,24000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 19:10:50,Consultora,España,,25000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,1,"Sí, 100% remoto"
+9/03/2023 19:11:05,Empresa de producto,España,,36300,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Mujer,4,"Sí, 100% remoto"
+9/03/2023 19:11:15,Agencia,España,,17000,EUR,Full Stack,Senior (+5 años),Autodidacta,Hombre,1,Tengo que ir a la oficina de forma regular
+9/03/2023 19:11:19,Consultora,España,,20000,EUR,Tester/Dispatcher de tareas(Abajo pongo 0-1 años programando) De tester llevo 3 años,Trainee (0-1 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 19:11:37,Consultora,España,,25500,EUR,Full Stack,Junior (1-4 años),Autodidacta,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 19:11:38,"Consultora ""start up""",España,Italia,25000,EUR,Código empotrado (embedded systems),Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,Tengo que ir a la oficina de forma regular
+9/03/2023 19:11:42,Consultora,España,,32000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 19:11:51,Agencia,España,,50000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 19:12:55,Empresa de producto,España,,23700,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,4,Tengo que ir a la oficina de forma regular
+9/03/2023 19:13:01,Consultora,España,,24000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 19:13:29,Consultora,España,PwC,18000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 19:16:53,Start Up,España,,18000,EUR,Full Stack,Trainee (0-1 años),Autodidacta,Hombre,1,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 19:17:12,Empresa de producto,España,,26000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 19:17:36,Tecnico de campo,España,,20500,EUR,"Tecnico de campo, viajante",Senior (+5 años),Formación interna,Hombre,3,Tengo que ir a la oficina de forma regular
+9/03/2023 19:17:55,Consultora,España,,36000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 19:18:40,Consultora,España,,35000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:19:42,Sector sanidad,España,,27000,EUR,Full Stack,Senior (+5 años),Autodidacta,Hombre,3,Tengo que ir a la oficina de forma regular
+9/03/2023 19:20:20,Consultora,España,Leanspace,24500,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Mujer,4,"Sí, 100% remoto"
+9/03/2023 19:21:19,Prácticas,España,,7200,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Mujer,1,"Sí, 100% remoto"
+9/03/2023 19:23:48,Start Up,España,,60000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 19:27:08,Consultora,España,,43000,EUR,Back End,Junior (1-4 años),Bootcamp,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:28:50,Consultora,España,,35000,EUR,Front End,Junior (1-4 años),Bootcamp,Mujer,4,"Sí, 100% remoto"
+9/03/2023 19:29:23,Start Up,España,,21000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 19:29:40,Empresa de producto,España,Reino Unido,62000,EUR,Back End,Senior (+5 años),Autodidacta,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:30:09,Consultora,España,,45000,EUR,Front End,Senior (+5 años),Autodidacta,Hombre,4,"Sí, 100% remoto"
+9/03/2023 19:30:54,Consultora,España,Alemania,27000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 19:31:55,Empresa de producto,España,,32000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:33:57,Consultora,España,,22000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 19:34:39,Empresa de producto,España,Francia,32000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 19:35:16,Empresa de producto,España,,42000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:38:16,Empresa de producto,España,,32000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Tengo que ir a la oficina de forma regular
+9/03/2023 19:39:14,Empresa de producto,España,,40000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 19:39:51,Consultora,España,,34000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 19:40:08,Consultora,España,,27560,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,1,"Sí, 100% remoto"
+9/03/2023 19:46:41,Empresa de producto,España,Sembo,20000,EUR,Front End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 19:48:04,Consultora,España,,29000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 19:51:00,Empresa de producto,España,USA,53000,EUR,Machine Learning Eng,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:51:47,Start Up,España,,36000,EUR,ML Engineer,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 19:52:00,Consultora,España,,52000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+9/03/2023 19:53:05,Start Up,España,,12600,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:54:43,Consultora,España,,23000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,5,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 19:57:05,Ministerio de Defensa - Ejército de Tierra,España,,30000,EUR,"Administrador de sistemas, soporte técnico, networking, programador si hace falta y luego tareas propias de un militar. Tiro, guardias, misiones....",Senior (+5 años),La mayor parte autodidacta desde muy niño y la academia militar (FPII),Hombre,1,Tengo que ir a la oficina de forma regular
+9/03/2023 19:58:20,Consultora,España,,30500,EUR,Mainframe,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:59:13,Empresa de producto,España,,28000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Tengo que ir a la oficina de forma regular
+9/03/2023 19:59:30,Consultora,España,,20000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 20:00:02,Empresa de producto,España,,15600,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Mujer,1,"Sí, 100% remoto"
+9/03/2023 20:04:41,Consultora,españa,,24000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,5,"Sí, 100% remoto"
+9/03/2023 20:04:41,Consultora,España,,18000,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 20:04:42,Empresa de producto,España,,25000,EUR,Front End,Trainee (0-1 años),Autodidacta,Hombre,5,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 20:05:44,Consultora,España,,33000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Mujer,1,
+9/03/2023 20:07:20,Consultora,España,,36000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Prefiero no decirlo,3,"Sí, 100% remoto"
+9/03/2023 20:10:06,Consultora,España,,48000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 20:12:29,Consultora,España,,61000,EUR,Front End,Senior (+5 años),Autodidacta,Hombre,5,"Sí, 100% remoto"
+9/03/2023 20:13:18,Start Up,España,,31500,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,4,"Sí, 100% remoto"
+9/03/2023 20:13:19,Empresa de producto,España,Países Bajos,44900,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 20:14:10,Empresa de producto,España,Alemania,60000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 20:15:28,Consultora,España,Ricoh,34000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 20:16:16,Consultora,España,,37000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,5,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 20:16:44,Freelance,España,,70000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 20:17:21,Consultora,España,,34000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 20:20:51,Empresa de producto,España,,50000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 20:25:04,Empresa de producto,España,,25000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 20:25:43,Freelance,España,,70000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 20:27:06,Consultora,España,,21000,EUR,Full Stack,Junior (1-4 años),Autodidacta + Bootcamp,Hombre,3,"Sí, 100% remoto"
+9/03/2023 20:32:45,Consultora,España,,19000,EUR,Front End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 20:33:32,Consultora,España,,45000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 20:34:21,Empresa de producto,España,,60000,EUR,Head of Data,Senior (+5 años),"2 carreras, 4 master, sin parar desde 2008",Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 20:34:44,Start Up,España,,67200,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 20:39:03,Consultora,España,,22000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 20:39:13,Consultora,España,,18000,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 20:39:15,Consultora,España,,18000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,Tengo que ir a la oficina de forma regular
+9/03/2023 20:39:20,Consultora,España,,28000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+9/03/2023 20:39:26,Start Up,España,,85000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 20:39:26,Consultora,España,,50000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 20:39:28,Consultora,España,,55000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 20:39:37,Consultora,España,,25000,EUR,Full Stack,Junior (1-4 años),Autodidacta,Hombre,2,"Sí, 100% remoto"
+9/03/2023 20:39:37,Empresa de producto,España,,55000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 20:39:38,Consultora,España,,30000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,5,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 20:39:42,Consultora,España,,40000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 20:39:44,Start Up,España,,30000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Tengo que ir a la oficina de forma regular
+9/03/2023 20:39:44,Empresa de producto,España,,24000,EUR,Back End,Junior (1-4 años),Autodidacta,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 20:39:45,Agencia,España,,38000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 20:39:45,Consultora,España,,21600,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 20:39:46,Start Up,España,,19000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 20:39:48,Consultora,España,,53000,EUR,DevOps,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 20:39:52,Start Up,España,,24000,EUR,Full Stack,Trainee (0-1 años),Bootcamp,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 20:39:58,Consultora,España,,38000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,1,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 20:39:59,Consultora,España,,21000,EUR,Front End,Junior (1-4 años),Bootcamp,Hombre,5,Tengo que ir a la oficina de forma regular
+9/03/2023 20:40:00,Empresa de producto,España,,30000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 20:40:01,Agencia,España,,32000,EUR,Front End,Junior (1-4 años),Bootcamp,Hombre,4,"Sí, 100% remoto"
+9/03/2023 20:40:03,Empresa de producto,España,,62000,EUR,Front End Lead,Senior (+5 años),Formación reglada o universitaria,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 20:40:04,Empresa de producto,España,,42000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 20:40:05,Empresa de producto,España,,25500,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 20:40:05,Consultora,España,,15860,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 20:40:06,Consultora,España,,15000,EUR,Front End,Junior (1-4 años),Bootcamp,Hombre,3,"Sí, 100% remoto"
+9/03/2023 20:40:22,Consultora,España,,45000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Mujer,4,"Sí, 100% remoto"
+9/03/2023 20:40:23,Consultora,España,,50000,EUR,Salesforce Developer ,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 20:40:27,Empresa de producto,España,,27000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 20:40:27,Consultora,España,,35000,EUR,Full Stack,Junior (1-4 años),Bootcamp,Hombre,5,"Sí, 100% remoto"
+9/03/2023 20:40:28,Empresa de producto,España,,43000,EUR,Back End,Senior (+5 años),FP2 Desarrollo aplicaciones multiplataforma,Hombre,2,"Sí, 100% remoto"
+9/03/2023 20:40:38,Consultora,España,,28000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Tengo que ir a la oficina de forma regular
+9/03/2023 20:40:41,Start Up,españa,,20000,EUR,Full Stack,Junior (1-4 años),Bootcamp,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 20:40:52,Empresa de producto,España,Alemania,21000,EUR,Front End,Trainee (0-1 años),Bootcamp,Mujer,3,"Sí, 100% remoto"
+9/03/2023 20:40:55,Empresa de producto,España,,24000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 20:40:59,Empresa de producto,España,,17100,EUR,Front End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 20:41:01,Consultora,España,,20000,EUR,SAP,Junior (1-4 años),Prefiero no decirlo,Hombre,2,"Sí, 100% remoto"
+9/03/2023 20:41:22,Consultora,España,,33000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 20:41:28,Consultora,España,,16000,EUR,Business Intelligence,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 20:41:41,Consultora,España,,23000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Mujer,2,"Sí, 100% remoto"
+9/03/2023 20:41:52,Empresa de producto,España,,55000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 20:41:53,Arsys,España,Ionos,23000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 20:41:56,Agencia,España,,27000,EUR,Full Stack,Junior (1-4 años),Bootcamp,Mujer,3,Tengo que ir a la oficina de forma regular
+9/03/2023 20:42:18,Empresa de producto,España,Sí,45000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+9/03/2023 20:42:32,Consultora,España,,33000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 20:43:16,Consultora,España,,20500,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 20:43:44,Start Up,España,,16000,EUR,Front End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,1,"Sí, 100% remoto"
+9/03/2023 20:44:10,Consultora,España,,28000,EUR,Back End,Junior (1-4 años),Autodidacta,Mujer,3,"Sí, 100% remoto"
+9/03/2023 20:45:51,Start Up,España,,33000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,1,"Sí, 100% remoto"
+9/03/2023 20:46:38,Consultora,España,,30100,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 20:47:00,Empresa de producto,España,,49000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 20:50:40,Consultora,España,,15000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 20:51:04,Consultora,España,,21000,EUR,CMS Developer ,Junior (1-4 años),Varias,Hombre,3,"Sí, 100% remoto"
+9/03/2023 20:56:41,Consultora,España,,27000,EUR,Full Stack,Senior (+5 años),Autodidacta,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 20:57:11,Consultora,España,,20000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 21:00:50,BPO,España,,20000,EUR,Back End,Junior (1-4 años),FPII,Hombre,1,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 21:02:34,Consultora,España,Avanade,20000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 21:02:51,Consultora,España,,17000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 21:03:19,Empresa de producto,España,,22000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,4,Tengo que ir a la oficina de forma regular
+9/03/2023 21:05:40,Empresa de producto,España,,55000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 21:06:22,"Formación (Cursos, Oposiciones, Masteres)",España,,22000,EUR,Full Stack,Trainee (0-1 años),Autodidacta,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 21:09:48,Empresa de producto,España,,75000,EUR,Embarcado ,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 21:12:58,Consultora,España,,27500,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 21:13:17,Consultora,España,,19000,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 21:13:20,Agencia,España,,137000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+9/03/2023 21:15:36,Consultora,España,,18000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,1,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 21:25:13,Consultora,España,,33500,EUR,Database Administrator ,Junior (1-4 años),Formación reglada o universitaria,Mujer,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 21:28:14,Empresa de producto,España,,45000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 21:32:57,Empresa de producto,España,,40000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 21:33:00,Empresa de producto,España,,80000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 21:33:12,Empresa de producto,España,RWS,37000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 21:33:16,Empresa de producto,España,,38000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 21:33:37,Empresa de producto,España,,13800,EUR,Full Stack,Junior (1-4 años),Autodidacta,Hombre,2,Tengo que ir a la oficina de forma regular
+9/03/2023 21:34:18,Consultora,España,,33000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 21:35:01,Consultora,España,,29000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 21:36:23,Practicas,españa,Reino Unido,4500,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 21:37:24,Consultora,España,Canada,32000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 21:37:53,Empresa de producto,España,Irlanda,60000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 21:38:04,Consultora,España,,30000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 21:39:37,Empresa de producto,España,,34000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 21:40:57,Empresa de producto,España,,27000,EUR,Full Stack,Junior (1-4 años),Autodidacta,Mujer,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 21:58:17,Consultora,España,,30000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 22:11:56,Consultora,España,Suiza y Alemania,40000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 22:33:17,Empresa de producto,España,,77000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 22:45:01,Empresa de producto,España,Suiza,90000,EUR,DevOps,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 22:53:18,Empresa de producto,España,,38000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 22:54:37,Consultora,España,República Checa,38000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 22:59:23,Consultora,España,,55000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 23:02:39,Empresa de producto,España,filial española de una empresa de Estados Unidos,40000,EUR,Embedded Systems,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 23:09:48,Empresa de producto,España,EEUU,120000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+9/03/2023 23:11:12,Consultora,España,,33000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 23:21:03,Empresa de producto,España,,25000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,1,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 23:21:26,Empresa de producto,España,,44000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 0:00:50,Consultora,España,,25500,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 0:09:56,Agencia,España,,24000,EUR,Full Stack,Senior (+5 años),FP superior,Hombre,1,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 0:36:56,Consultora,España,,20000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Tengo que ir a la oficina de forma regular
+10/03/2023 1:20:35,Empresa de producto,España,,30000,EUR,Back End,Senior (+5 años),Autodidacta,Hombre,2,"Sí, 100% remoto"
+10/03/2023 1:33:34,Consultora,España,,19000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 8:10:22,Consultora,España,,26000,EUR,Full Stack,Junior (1-4 años),Autodidacta,Hombre,4,"Sí, 100% remoto"
+10/03/2023 8:33:18,Start Up,España,,16000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,Tengo que ir a la oficina de forma regular
+10/03/2023 8:44:22,Empresa de producto,España,,38000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 8:45:51,Empresa de producto,España,,40000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 9:00:28,Consultora,España,,27000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 9:10:15,Empresa de producto,España,,30000,EUR,Front End,Junior (1-4 años),"DAW, DAM + Autodidacta",Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 9:12:08,Medio de prensa digital,España,,41000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 9:17:10,Consultora,España,,26000,EUR,Front End,Trainee (0-1 años),Bootcamp,Mujer,5,"Sí, 100% remoto"
+10/03/2023 9:29:09,Empresa de producto,España,Sí,40000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 9:30:02,Empresa de producto,España,,35000,EUR,Backend/Devops,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 10:51:58,Empresa de producto,España,,37500,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Tengo que ir a la oficina de forma regular
+10/03/2023 10:56:27,Consultora,España,,17500,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 11:12:27,Empresa de producto,España,,36000,EUR,Back End,Junior (1-4 años),Bootcamp,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 11:29:14,Consultora,España,,31500,EUR,Front End,Senior (+5 años),Autodidacta,Hombre,3,"Sí, 100% remoto"
+10/03/2023 11:39:31,Empresa de producto,España,,30000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,4,"Sí, 100% remoto"
+10/03/2023 11:59:06,Empresa de producto,España,Dinamarca,50000,EUR,80% Front (React) 20% Back (.NET),Senior (+5 años),Formación reglada o universitaria,Hombre,5,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 12:02:58,Consultora,España,,42000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 12:03:06,Empresa de producto,España,,40000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Mujer,4,"Sí, 100% remoto"
+10/03/2023 12:32:36,Agencia,España,,28000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Tengo que ir a la oficina de forma regular
+10/03/2023 12:37:10,Start Up,España,,20000,EUR,Full Stack,Trainee (0-1 años),Autodidacta,Hombre,4,"Sí, 100% remoto"
+10/03/2023 12:38:55,Empresa de producto,España,,27000,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 12:43:32,Consultora,España,,41000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,5,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 12:46:32,Consultora,España,,22000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 13:15:09,Empresa de producto,España,,21000,EUR,Front End,Junior (1-4 años),Bootcamp,Hombre,2,"Sí, 100% remoto"
+10/03/2023 13:19:28,Consultora,España,,43000,EUR,QA,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 13:25:05,Consultora,España,,60000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 13:26:15,Start Up,España,,25000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,1,Tengo que ir a la oficina de forma regular
+10/03/2023 13:53:53,Empresa de producto,España,,35000,EUR,Front End,Senior (+5 años),Autodidacta,Hombre,4,"Sí, 100% remoto"
+10/03/2023 14:25:15,Consultora,España,,38000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 14:25:19,Empresa de producto,España,,52000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 14:26:37,Consultora,España,,20000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 14:27:01,Consultora,España,,53000,EUR,Tech Lead Frontend,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 14:27:45,Consultora,España,,24000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 14:27:51,Empresa de producto,España,Países bajos,24000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 14:28:28,Start Up,España,,19000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Tengo que ir a la oficina de forma regular
+10/03/2023 14:29:03,Consultora,España,,30000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 14:29:14,Empresa de producto,España,,24000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Tengo que ir a la oficina de forma regular
+10/03/2023 14:29:45,43000,españa,,43000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,5,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 14:29:45,Empresa de producto,España,,21000,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+10/03/2023 14:30:09,Empresa de producto,España,Noruega,43000,EUR,IoT,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 14:30:12,Consultora,España,,38000,EUR,Data scientist,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+10/03/2023 14:31:02,Empresa de producto,España,,40000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 14:31:56,Consultora,España,,23000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 14:32:40,Consultora,España,,20000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 14:32:43,Consultora,España,,32000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+10/03/2023 14:32:53,Empresa de producto,España,,15000,EUR,Front End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+10/03/2023 14:34:19,Consultora,España,,27000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 14:34:24,Consultora,España,,14900,EUR,CORRECCIÓN WEB,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 14:34:43,Consultora,España,,26000,EUR,Front End,Junior (1-4 años),Bootcamp,Hombre,3,"Sí, 100% remoto"
+10/03/2023 14:34:45,Start Up,España,,35000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 14:34:52,Empresa de producto,España,,26000,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,5,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 14:35:12,Consultora,España,,45000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 14:35:34,Empresa de producto,España,,51000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 14:35:50,Start Up,España,,28000,EUR,Full Stack,Trainee (0-1 años),Bootcamp,Hombre,5,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 14:36:15,Practicas,España,,8000,EUR,Front End,Trainee (0-1 años),Bootcamp,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 14:37:35,Consultora,España,,24000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,1,"Sí, 100% remoto"
+10/03/2023 14:37:52,Consultora,España,,43000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 14:37:55,Empresa de producto,España,,7200,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 14:39:51,Consultora,España,Melilla,27000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+10/03/2023 14:40:16,Empresa de producto,España,,11000,EUR,Front End,Trainee (0-1 años),Autodidacta,Hombre,1,Tengo que ir a la oficina de forma regular
+10/03/2023 14:43:01,Consultora,España,,27000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Tengo que ir a la oficina de forma regular
+10/03/2023 14:43:12,Start Up,España,,25000,EUR,Back End,Junior (1-4 años),Autodidacta y grado superior ,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 14:44:30,Empresa de producto,España,,24000,EUR,Full Stack,Trainee (0-1 años),Bootcamp,Hombre,5,Tengo que ir a la oficina de forma regular
+10/03/2023 14:45:29,Empresa de producto,España,,35000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 14:49:58,Consultora,España,,21000,EUR,Full Stack,Junior (1-4 años),Curso propio de empresa ,Mujer,1,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 14:55:25,Empresa de producto,España,,45000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 14:58:18,Empresa de producto,España,,21000,EUR,Back End,Junior (1-4 años),Prefiero no decirlo,Mujer,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 14:58:33,Consultora,España,Reino Unido,18000,EUR,Front End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,4,Tengo que ir a la oficina de forma regular
+10/03/2023 14:58:36,Consultora,España,,54000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 14:58:56,Consultora,España,,30000,EUR,Front End,Junior (1-4 años),Grado superior desarrollo de aplicaciones web,Hombre,3,"Sí, 100% remoto"
+10/03/2023 14:59:32,Consultora,España,,27000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 15:02:24,Start Up,España,Orquesta Media,41000,EUR,Full Stack,Senior (+5 años),Universitaria y cursos,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 15:04:08,Agencia,España,,33000,EUR,Front End,Senior (+5 años),Autodidacta,Hombre,3,"Sí, 100% remoto"
+10/03/2023 15:08:01,Consultora,España,NTTDATA,20000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 15:08:31,Consultora,España,,25000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 15:10:22,Consultora,España,,30000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 15:13:07,Empresa de producto,España,,53000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 15:13:11,Consultora,España,,23000,EUR,Testing,Trainee (0-1 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 15:13:13,Agencia,España,,54000,EUR,CTO,Senior (+5 años),Formación reglada o universitaria,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 15:18:52,Empresa de producto,España,,26000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Tengo que ir a la oficina de forma regular
+10/03/2023 15:20:20,Consultora,España,,20000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,1,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 15:21:27,Consultora,España,,18000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 15:22:44,Consultora,España,,17000,EUR,BBDD N1,Junior (1-4 años),FP grado medio,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 15:23:39,Empresa de producto,España,,60000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 15:24:05,Start Up,España,,62000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 15:24:39,Consultora,España,,31000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 15:26:18,Consultora,España,,27000,EUR,Back End,Junior (1-4 años),DAM y DAW,Hombre,5,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 15:27:48,Consultora,España,,22000,EUR,Front End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+10/03/2023 15:29:05,Empresa de producto,España,,35000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 15:30:15,Empresa de producto,España,,22000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Mujer,4,"Sí, 100% remoto"
+10/03/2023 15:31:45,Consultora,España,,37800,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 15:32:56,Empresa de producto,España,,21600,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 15:33:02,Empresa de producto,España,,30000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 15:33:41,Consultora,España,,19500,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 15:34:30,Start Up,España,,25000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,1,Tengo que ir a la oficina de forma regular
+10/03/2023 15:39:33,Empresa de producto,España,,31000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 15:40:16,Consultora,España,,50000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+10/03/2023 15:41:49,Empresa de producto,España,,38000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 15:43:50,Consultora,España,,40000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 15:49:57,Empresa de producto,España,,35000,EUR,Front End,Senior (+5 años),Formación reglada... + Autodidacta ,Hombre,1,"Sí, 100% remoto"
+10/03/2023 15:50:20,Consultora,España,,45000,EUR,Mobile,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 15:53:07,Consultora,España,,29000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 15:54:41,Consultora,España,,20000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,1,"Sí, 100% remoto"
+10/03/2023 15:55:16,Consultora,España,,28000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+10/03/2023 15:57:18,Empresa de producto,España,,26000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 16:00:10,Empresa de producto,España,,26000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+10/03/2023 16:02:36,Consultora,España,,45000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 16:04:02,Empresa de producto,España,,42500,EUR,"Backend principalmente, pero a veces algo de frontend y otras tareas relacionadas con It",Senior (+5 años),Master en programación,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 16:10:10,Empresa de producto,España,,28000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 16:11:08,Consultora,España,,22500,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 16:14:18,Empresa de producto,España,,27000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Mujer,4,Tengo que ir a la oficina de forma regular
+10/03/2023 16:14:44,Empresa de producto,España,Reino Unido,72000,EUR,Preventa,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 16:18:01,Empresa de producto,España,,32000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 16:18:19,Start Up,España,,20000,EUR,Front End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,2,Tengo que ir a la oficina de forma regular
+10/03/2023 16:19:10,Consultora,España,,31000,EUR,Full Stack,Junior (1-4 años),Bootcamp,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 16:19:25,Consultora,España,,28200,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+10/03/2023 16:20:32,Consultora,España,,30000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 16:21:20,Consultora,España,,20000,EUR,Front End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 16:30:36,Consultora,España,,37000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 16:30:50,Empresa de producto,España,,18500,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 16:33:25,Consultora,España,,32000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 16:33:56,Empresa de producto,España,Alemania,29000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,
+10/03/2023 16:34:00,Empresa de producto,España,,44000,EUR,Front End,Junior (1-4 años),Bootcamp,Mujer,5,"Sí, 100% remoto"
+10/03/2023 16:34:39,Agencia,España,,22000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,3,"Sí, 100% remoto"
+10/03/2023 16:35:57,Consultora,España,,17180,EUR,Full Stack,Junior (1-4 años),Bootcamp,Hombre,4,"Sí, 100% remoto"
+10/03/2023 16:43:26,Consultora,España,Francia,42000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 16:43:27,Empresa de producto,España,,26000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Tengo que ir a la oficina de forma regular
+10/03/2023 16:50:57,Consultora,España,,19000,EUR,Back End,Junior (1-4 años),Grado superior,Hombre,1,Tengo que ir a la oficina de forma regular
+10/03/2023 16:59:51,Consultora,España,,17500,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,1,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 17:02:34,Empresa de producto,España,,34000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 17:05:34,Empresa de producto,España,,57000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+10/03/2023 17:07:04,Empresa de producto,España,Alemania ,40600,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 17:09:27,Empresa de producto,España,,40000,EUR,Full Stack,Senior (+5 años),Autodidacta,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 17:14:00,Consultora,España,,23000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 17:17:34,Empresa de producto,España,,26000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 17:17:54,Empresa de producto,España,,35000,EUR,Back End,Junior (1-4 años),Bootcamp,Mujer,4,"Sí, 100% remoto"
+10/03/2023 17:18:53,Empresa de producto,España,Holanda,55000,EUR,Front End,Senior (+5 años),Autodidacta,Hombre,4,"Sí, 100% remoto"
+10/03/2023 17:21:07,Consultora,España,,31000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 17:21:35,Empresa de producto,España,,28000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 17:21:52,Empresa de producto,España,Alemania,30500,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Tengo que ir a la oficina de forma regular
+10/03/2023 17:26:21,Empresa de producto,España,,30000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 17:42:28,Empresa de producto,España,,44000,EUR,Front End,Junior (1-4 años),Bootcamp,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 17:42:35,Empresa de producto,España,Francia,38000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 17:43:20,Empresa de producto,España,,19010,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 17:44:55,Agencia,España,Estados Unidos,40000,USD,QA,Junior (1-4 años),Autodidacta,Mujer,4,"Sí, 100% remoto"
+10/03/2023 17:45:36,Consultora,España,,34000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+10/03/2023 17:45:55,Empresa de producto,España,,30000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 17:51:17,Empresa de producto,España,,25000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Tengo que ir a la oficina de forma regular
+10/03/2023 17:52:44,Laboratorio,España,,23000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Tengo que ir a la oficina de forma regular
+10/03/2023 17:55:37,Consultora,España,,31500,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Mujer,1,"Sí, 100% remoto"
+10/03/2023 17:56:38,Consultora,España,,27000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 17:57:42,Consultora,España,,27000,EUR,Back End,Junior (1-4 años),Autodidacta,Hombre,2,"Sí, 100% remoto"
+10/03/2023 18:15:30,Empresa de producto,España,,32000,EUR,Full Stack,Junior (1-4 años),Autodidacta,Hombre,5,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 18:15:32,Consultora,España,,66000,EUR,Mobile,Senior (+5 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+10/03/2023 18:17:43,Empresa de ventas privadas,España,Francia ,50000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 18:21:25,Empresa de producto,España,,48000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 18:22:39,Consultora,España,,35000,EUR,Full Stack,Junior (1-4 años),Bootcamp,Hombre,4,"Sí, 100% remoto"
+10/03/2023 18:24:43,Empresa de producto,España,,26000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 18:31:19,Empresa de producto,España,,21000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Tengo que ir a la oficina de forma regular
+10/03/2023 18:32:49,Empresa de producto,España,,17300,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,2,Tengo que ir a la oficina de forma regular
+10/03/2023 18:36:32,Start Up,españa,,25000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Tengo que ir a la oficina de forma regular
+10/03/2023 18:38:00,Consultora,España,,17000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+10/03/2023 18:44:47,Empresa de producto,España,,55000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+10/03/2023 18:48:41,Start Up,España,,30000,EUR,Front End,Junior (1-4 años),Bootcamp,Hombre,3,"Sí, 100% remoto"
+10/03/2023 18:51:23,Empresa de producto,España,,25000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 18:52:08,Empresa de producto,España,,31500,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 18:54:36,Consultora,España,,18500,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 18:58:47,Consultora,España,,34500,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 19:06:13,Empresa de producto,España,,60000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 19:14:40,Consultora,España,,27000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,5,"Sí, 100% remoto"
+10/03/2023 19:15:37,Empresa de producto,España,USA,20000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,5,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 19:23:15,Empresa de producto,España,,44500,EUR,Front End,Senior (+5 años),Autodidacta,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 19:24:30,Start Up,España,,25197,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 19:33:57,Empresa de producto,España,,35000,EUR,Oracle aeng,Senior (+5 años),Autodidacta,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 19:37:11,Empresa de producto,España,,19000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 19:59:12,Consultora,España,,34000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 19:59:33,Consultora,España,,26500,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Mujer,3,"Sí, 100% remoto"
+10/03/2023 20:04:14,Consultora,España,,26500,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+10/03/2023 20:06:18,Consultora,España,,32500,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 20:06:32,Consultora,España,Alemania,31200,EUR,Front End,Junior (1-4 años),Bootcamp,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 20:17:15,Consultora,España,,22000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Mujer,3,"Sí, 100% remoto"
+10/03/2023 20:17:55,Consultora,España,,22000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Mujer,3,"Sí, 100% remoto"
+10/03/2023 20:26:23,Consultora,España,,45000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 20:28:47,Consultora,España,,35000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 21:09:02,Empresa de producto,España,,23600,EUR,Full Stack,Trainee (0-1 años),Cursos,Hombre,5,Tengo que ir a la oficina de forma regular
+10/03/2023 21:12:14,Empresa de producto,España,,30000,EUR,Front End,Junior (1-4 años),Bootcamp,Mujer,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 21:15:34,Multinacional ,España,,15000,EUR,Maquetador web,Trainee (0-1 años),Bootcamp,Mujer,1,"Sí, 100% remoto"
+10/03/2023 21:19:02,Empresa de producto,España,,36000,EUR,Fullstack + smart contracts,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 21:30:35,Empresa de producto,España,Francia,45000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 21:40:04,Start Up,España,,21000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,1,Tengo que ir a la oficina de forma regular
+10/03/2023 21:45:54,Empresa de producto,España,,40000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,5,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 21:46:09,Consultora,España,,27000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Mujer,2,"Sí, 100% remoto"
+10/03/2023 21:51:49,I+D,España,,50800,EUR,Software embebido,Senior (+5 años),Formación reglada o universitaria,Hombre,4,Tengo que ir a la oficina de forma regular
+10/03/2023 21:53:51,Consultora,España,Deloitte,18000,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,2,Tengo que ir a la oficina de forma regular
+10/03/2023 22:22:53,Start Up,España,Si,52000,EUR,Front End,Senior (+5 años),Autodidacta,Mujer,3,"Sí, 100% remoto"
+10/03/2023 22:43:44,Start Up,España,,26000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 22:46:21,Consultora,España,,25000,EUR,Back End,Junior (1-4 años),Grado superior DAW,Hombre,5,"Sí, 100% remoto"
+10/03/2023 22:58:54,Consultora,España,,34000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 23:00:50,Consultora,España,,32000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,5,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 23:01:57,Cliente final,España,,53500,EUR,Engineer Manager,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 23:04:44,Start Up,España,,30000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 23:05:01,Empresa de producto,España,,62000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,5,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 23:08:33,Empresa de producto,España,Suecia/EEUU,68000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 23:10:33,Consultora,España,,26000,EUR,Front End,Trainee (0-1 años),Bootcamp,Mujer,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 23:22:02,Empresa de producto,España,,43000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 23:34:20,Consultora,España,,45000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Mujer,3,"Sí, 100% remoto"
+10/03/2023 23:50:02,Empresa de producto,españa,,35000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Mujer,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 23:50:36,Consultora,España,,31000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Prefiero no decirlo,5,"Sí, 100% remoto"
+10/03/2023 23:57:50,Empresa de producto,España,,42000,EUR,ios y PM,Senior (+5 años),Formación reglada o universitaria,Hombre,1,"Sí, 100% remoto"
+10/03/2023 23:59:49,Empresa de producto,España,Alemania,24000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,2,Tengo que ir a la oficina de forma regular
+11/03/2023 0:06:13,Consultora,España,,32000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Mujer,2,"Sí, 100% remoto"
+11/03/2023 0:17:49,Consultora,España,Empresa española,21000,EUR,Back End,Junior (1-4 años),Autodidacta,Hombre,4,Tengo que ir a la oficina de forma regular
+11/03/2023 0:19:35,Consultora,España,Inglaterra,35000,EUR,Front End,Junior (1-4 años),Bootcamp,Hombre,4,"Sí, 100% remoto"
+11/03/2023 0:42:53,Consultora,españa,,21000,EUR,Front End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+11/03/2023 1:05:12,Consultora,España,,20000,EUR,Front End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+11/03/2023 1:17:52,Empresa de producto,España,Multinacional,50000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+11/03/2023 1:29:14,Empresa de producto,España,,45000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+11/03/2023 2:52:52,Empresa de producto,España,,22000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+11/03/2023 3:15:17,Freelance,España,,14000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,1,"Sí, 100% remoto"
+11/03/2023 7:35:25,Empresa de producto,España,Holanda,76000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+11/03/2023 8:21:27,Consultora,España,,26952,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Mujer,1,"Sí, 100% remoto"
+11/03/2023 8:34:27,Empresa de producto,España,,40000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+11/03/2023 8:36:02,Empresa de producto,España,,45000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+11/03/2023 8:46:43,Empresa de producto,España,,21000,EUR,Product manager,Senior (+5 años),Formación reglada o universitaria,Hombre,1,Tengo que ir a la oficina de forma regular
+11/03/2023 9:12:01,Consultora,España,,30000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+11/03/2023 9:26:34,Empresa de producto,España,,26000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+11/03/2023 9:28:47,Start Up,España,,18000,EUR,Front End,Trainee (0-1 años),Bootcamp,Mujer,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+11/03/2023 9:45:12,Empresa de producto,España,,30000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Tengo que ir a la oficina de forma regular
+11/03/2023 9:54:23,Empresa de producto,España,,26000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+11/03/2023 9:55:32,Consultora,España,,30500,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+11/03/2023 10:07:40,Empresa de producto,España,,47000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+11/03/2023 10:10:09,Consultora,España,,55000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+11/03/2023 10:11:43,Empresa de producto,España,,30000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Tengo que ir a la oficina de forma regular
+11/03/2023 10:12:09,Empresa de producto,España,,25687,EUR,Back End,Junior (1-4 años),Bootcamp,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+11/03/2023 10:26:06,Consultora,España,,24000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+11/03/2023 10:30:22,Consultora,España,,26000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+11/03/2023 10:32:10,Consultora,España,,20000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+11/03/2023 10:35:23,Empresa de producto,España,,52000,EUR,Front End,Senior (+5 años),Autodidacta,Hombre,3,"Sí, 100% remoto"
+11/03/2023 10:39:47,Consultora,España,,27000,EUR,Salesforce,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+11/03/2023 10:47:53,Empresa de producto,España,,22000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+11/03/2023 10:56:23,Empresa de producto,España,,18000,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+11/03/2023 11:04:42,Empresa de producto,España,,45000,EUR,Full Stack,Senior (+5 años),Autodidacta,Hombre,1,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+11/03/2023 11:07:57,Consultora,España,,31000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+11/03/2023 11:15:33,Consultora,España,,33000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+11/03/2023 11:35:17,Consultora,España,Varios paises ,62000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+11/03/2023 11:38:34,Traducción e interpretación ,España,,38000,EUR,Back End,Junior (1-4 años),Bootcamp,Hombre,3,"Sí, 100% remoto"
+11/03/2023 11:39:19,Empresa de producto,España,,42000,EUR,Full Stack,Senior (+5 años),Formación reglada y muchos años autodidacta,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+11/03/2023 11:53:55,Consultora,España,,23000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+11/03/2023 12:09:26,Agencia,España,,16000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Tengo que ir a la oficina de forma regular
+11/03/2023 12:12:07,Empresa de producto,España,Francia,30000,EUR,Front End,Junior (1-4 años),École 42,Hombre,2,Tengo que ir a la oficina de forma regular
+11/03/2023 12:28:36,Consultora,España,,19000,EUR,Front End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+11/03/2023 12:33:53,Start Up,España,,28000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+11/03/2023 12:40:49,Start Up,España,,22000,EUR,Full Stack,Junior (1-4 años),Autodidacta,Hombre,2,Tengo que ir a la oficina de forma regular
+11/03/2023 12:53:18,Empresa de producto,España,,17600,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,1,Tengo que ir a la oficina de forma regular
+11/03/2023 12:54:27,Consultora + producto,España,,38000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+11/03/2023 12:56:41,Empresa de producto,España,,21000,EUR,Front End,Trainee (0-1 años),Bootcamp,Mujer,4,"Sí, 100% remoto"
+11/03/2023 13:15:11,Agencia,España,,34000,EUR,Full Stack,Senior (+5 años),Autodidacta + Formación Reglada,Hombre,3,Tengo que ir a la oficina de forma regular
+11/03/2023 13:31:18,Consultora,España,,22000,EUR,Front End,Trainee (0-1 años),Bootcamp,Mujer,3,"Sí, 100% remoto"
+11/03/2023 13:32:58,Start Up,España,,21542,EUR,QA,Trainee (0-1 años),Formación reglada o universitaria,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+11/03/2023 11:14:32,Empresa de producto,España,,31000,EUR,Front End,Junior (1-4 años),Bootcamp,Mujer,3,"Sí, 100% remoto"
+11/03/2023 13:43:07,Consultora,España,,19000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+11/03/2023 13:44:44,Consultora,España,,23000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:18:05,Consultora,España,,18000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+11/03/2023 13:53:17,Consultora,España,,32000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+11/03/2023 14:25:27,Empresa de producto,España,,32000,EUR,Software Embebido,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+11/03/2023 14:30:06,Empresa de producto,España,,50000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+11/03/2023 15:14:01,Consultora,España,,32000,EUR,PHP + TypeScript Full Stack + Design System + Ciberseguridad,Senior (+5 años),Autodidacta,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+11/03/2023 15:33:06,Start Up,España,,19000,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+11/03/2023 17:29:44,Empresa de producto,España,,35000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+11/03/2023 18:07:58,Empresa de producto,España,,24000,EUR,Front End,Senior (+5 años),FP2,Hombre,1,Tengo que ir a la oficina de forma regular
+11/03/2023 18:15:42,Consultora,España,,41000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 20:15:20,Consultora,España,,64000,EUR,Technical Team Lead,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+11/03/2023 18:39:27,Agencia,España,,8400,EUR,Full Stack,Senior (+5 años),Autodidacta,no binario,2,Tengo que ir a la oficina de forma regular
+11/03/2023 19:02:12,Start Up,España,,69000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+11/03/2023 19:18:38,Empresa de producto,España,,46000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,5,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+11/03/2023 19:39:33,Empresa de producto,España,,27000,EUR,Full Stack,Senior (+5 años),Autodidacta,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 21:27:38,Empresa de producto,España,USA,30000,EUR,Full Stack,Junior (1-4 años),Bootcamp,Hombre,4,"Sí, 100% remoto"
+11/03/2023 19:51:36,Start Up,España,,20000,EUR,Front End,Junior (1-4 años),Ilerna online Grado Superior,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+11/03/2023 20:03:13,Empresa de producto,España,,18000,EUR,Full Stack,Trainee (0-1 años),"Autodidacta, y formación reglada (FP)",Hombre,2,Tengo que ir a la oficina de forma regular
+11/03/2023 20:57:21,Agencia,España,,22840,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+11/03/2023 21:15:55,Consultora,España,,33000,EUR,Back End,Senior (+5 años),Autodidacta,Hombre,4,"Sí, 100% remoto"
+11/03/2023 21:22:36,Agencia,España,,18900,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,1,Tengo que ir a la oficina de forma regular
+11/03/2023 21:25:07,Agencia,España,,45000,EUR,Android,Senior (+5 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+11/03/2023 21:57:59,Consultora,España,,37000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+11/03/2023 22:01:57,Empresa de producto,España,,32000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,4,"Sí, 100% remoto"
+11/03/2023 22:16:48,Empresa de producto,España,,33000,EUR,DevOps,Junior (1-4 años),Autodidacta,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+11/03/2023 22:22:09,Consultora,España,,35000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 21:32:51,Consultora,España,Stratesys,28000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+12/03/2023 9:56:09,Consultora,España,,20000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+12/03/2023 13:17:55,Consultora,España,,28000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+12/03/2023 18:20:27,Consultora,España,,19000,EUR,Front End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+13/03/2023 9:21:08,Consultora,España,,37000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+13/03/2023 9:23:30,Consultora,España,,18000,EUR,Full Stack,Junior (1-4 años),Bootcamp,Hombre,1,"Sí, 100% remoto"
+13/03/2023 11:48:17,Empresa de producto,España,,50000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+13/03/2023 12:19:31,Empresa de producto,España,,51000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+13/03/2023 13:24:19,Consultora,España,,26000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Tengo que ir a la oficina de forma regular
+13/03/2023 14:44:57,Empresa de producto,España,,25000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Tengo que ir a la oficina de forma regular
+13/03/2023 15:07:55,Empresa de producto,España,,42300,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+13/03/2023 15:57:17,Empresa de producto,España,,20000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,1,Tengo que ir a la oficina de forma regular
+13/03/2023 17:28:57,Empresa de producto,España,Suecia,99000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+13/03/2023 18:29:17,Consultora,España,,27000,EUR,Front End,Senior (+5 años),Prefiero no decirlo,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+13/03/2023 18:34:00,Consultora,España,,20000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+13/03/2023 19:43:15,Empresa de producto,España,,43000,EUR,Full Stack,Senior (+5 años),Autodidacta,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+13/03/2023 19:56:55,Consultora,España,,15947,EUR,Front End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,1,"Sí, 100% remoto"
+14/03/2023 14:51:33,Consultora,España,,35000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+14/03/2023 18:36:21,Empresa de producto,España,,38000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,4,"Sí, 100% remoto"
+14/03/2023 18:43:00,Empresa de producto,España,,28000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+14/03/2023 18:56:59,Consultora,España,Canada,31000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,3,"Sí, 100% remoto"
+14/03/2023 19:08:39,Consultora,España,,37200,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 9:54:40,Empresa de producto,España,USA,45000,EUR,Software Test Engineer,Senior (+5 años),FP + Autodidacta,Hombre,2,"Sí, 100% remoto"
+14/03/2023 19:29:50,Fábrica productos estética,España,,32000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Tengo que ir a la oficina de forma regular
+14/03/2023 19:52:15,Empresa de producto,España,Bélgica,27000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+11/03/2023 18:29:23,Empresa de producto,España,Nueva Zelanda,47000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+15/03/2023 18:50:02,Start Up,España,,43000,EUR,Front End,Senior (+5 años),Prefiero no decirlo,Hombre,4,"Sí, 100% remoto"
+15/03/2023 19:15:37,Consultora,España,,30000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Mujer,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+15/03/2023 19:22:24,Agencia,España,,18000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,1,"Sí, 100% remoto"
+16/03/2023 18:02:09,Departamento IT de una empresa de logística,España,,24000,EUR,Full Stack,Senior (+5 años),Técnico superior en desarrollo web,Hombre,5,Tengo que ir a la oficina de forma regular
+16/03/2023 19:08:28,Consultora,España,,21000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+16/03/2023 19:08:48,Empresa de producto,España,,40240,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+16/03/2023 23:53:53,Start Up,España,,23000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+17/03/2023 9:24:59,Empresa de producto,España,,18000,EUR,Front End,Trainee (0-1 años),Bootcamp,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+17/03/2023 11:36:54,Empresa de producto,España,,38000,EUR,Front End,Junior (1-4 años),FP y autodidacta,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+17/03/2023 16:50:33,Empresa de producto,España,Alemania,44000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+18/03/2023 1:53:13,Consultora,España,España,28000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+18/03/2023 17:47:12,Consultora,España,,24000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,1,"Sí, 100% remoto"
+19/03/2023 20:07:48,Empresa de producto,España,,18000,EUR,Full Stack,Trainee (0-1 años),Autodidacta,Hombre,3,Tengo que ir a la oficina de forma regular
+23/03/2023 12:44:30,Consultora,España,,65000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 18:17:54,Empresa de producto,España,Alemania,36000,EUR,Mobile ,Junior (1-4 años),Formación reglada o universitaria,Mujer,5,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 18:19:06,Empresa de producto,España,,26000,EUR,Full Stack,Junior (1-4 años),Bootcamp,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:20:10,Consultora,España,,21000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 18:23:21,Empresa de producto,España,,18000,EUR,QA junior ,Trainee (0-1 años),Autodidacta,Mujer,3,"Sí, 100% remoto"
+9/03/2023 18:40:55,Empresa de producto,España,,20000,EUR,Front End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 19:06:44,Start Up,España,,25000,EUR,Front End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,2,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+9/03/2023 19:10:16,Empresa de producto,España,UK,59000,EUR,QA,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 19:13:13,Agencia,España,,34000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 20:00:23,Consultora,España,Japon,19000,EUR,Full Stack,Junior (1-4 años),Bootcamp,Hombre,2,"Sí, 100% remoto"
+9/03/2023 20:10:43,Consultora,España,,27000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 20:40:29,Empresa de producto,España,Irlanda,80000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 20:40:42,Agencia,España,,28000,EUR,Back End,Junior (1-4 años),Autodidacta,Hombre,3,"Sí, 100% remoto"
+9/03/2023 20:43:54,Consultora,España,,25000,EUR,QA,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+9/03/2023 20:43:54,Consultora,España,,50000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 20:45:40,Empresa de producto,España,,30000,EUR,Front End,Junior (1-4 años),Bootcamp,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+9/03/2023 20:50:06,Start Up,España,,34000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+9/03/2023 21:01:15,Empresa de producto,España,,42000,EUR,Back End,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+9/03/2023 21:37:11,Consultora,España,,40000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 0:03:12,Consultora,España,,30000,EUR,Front End,Junior (1-4 años),Bootcamp,Hombre,4,"Sí, 100% remoto"
+10/03/2023 11:57:56,Start Up,España,,27500,EUR,Full Stack,Junior (1-4 años),Bootcamp,Mujer,2,"Sí, 100% remoto"
+10/03/2023 14:27:26,Empresa de producto,España,,36000,EUR,Software embebido safety,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 14:31:11,Start Up,España,Reino Unido ,35000,GBP,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 14:31:17,Empresa de producto,España,,21000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,5,Tengo que ir a la oficina de forma regular
+10/03/2023 14:32:20,Consultora,España,,28000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 14:35:10,Empresa de producto,España,,31000,EUR,Devops,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 14:35:56,Practica,España,,7200,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,1,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 14:39:19,Consultora,España,,28000,EUR,Full Stack,Junior (1-4 años),Autodidacta,Hombre,4,"Sí, 100% remoto"
+10/03/2023 14:35:52,Start Up,España,,45000,EUR,Data Science,Senior (+5 años),Formación reglada o universitaria,Mujer,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 14:48:29,Empresa de producto,España,,32000,EUR,Front End,Junior (1-4 años),Bootcamp,Mujer,3,Tengo que ir a la oficina de forma regular
+10/03/2023 15:02:15,Agencia,España,,24000,EUR,UX/UI Designer,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 15:18:45,Consultora,España,,29000,EUR,Back End,Junior (1-4 años),Autodidacta,Mujer,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 15:33:22,Start Up,España,,48000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Mujer,5,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 15:15:42,Consultora,España,,48000,EUR,Front End,Senior (+5 años),Autodidacta,Hombre,5,"Sí, 100% remoto"
+10/03/2023 15:21:54,Consultora,España,,37000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+10/03/2023 15:31:06,Consultor freelance para empresa de producto,España,Países bajos,66000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 15:43:52,Empresa de producto,España,,18000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Tengo que ir a la oficina de forma regular
+10/03/2023 15:44:11,Empresa de producto,España,,33000,EUR,Front End,Junior (1-4 años),Autodidacta,Hombre,4,"Sí, 100% remoto"
+10/03/2023 15:47:09,Empresa de producto,España,,26000,EUR,Mobile Developer,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 16:05:31,Agencia,España,,31000,EUR,QA,Junior (1-4 años),Bootcamp,Mujer,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 16:21:12,Consultora,España,,55000,EUR,DevOps,Senior (+5 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+10/03/2023 16:29:47,Empresa de producto,España,,27000,EUR,Front End,Trainee (0-1 años),Autodidacta,Mujer,2,Tengo que ir a la oficina de forma regular
+10/03/2023 16:45:16,Start Up,España,,23000,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Mujer,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+10/03/2023 15:45:29,Empresa de producto,España,,22000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+10/03/2023 15:50:03,Consultora,España,,20000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+10/03/2023 15:55:30,Start Up,España,,30000,EUR,Front End,Junior (1-4 años),Bootcamp,Mujer,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 16:48:23,Practica,España,,3600,EUR,Back End,Trainee (0-1 años),Formación reglada o universitaria,Hombre,1,"Sí, 100% remoto"
+10/03/2023 17:41:05,Consultora,España,,19700,EUR,Técnico onsite ,Junior (1-4 años),Formación reglada o universitaria,Hombre,1,Tengo que ir a la oficina de forma regular
+10/03/2023 17:47:13,Consultora,España,,30000,EUR,QA Engineer,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,"Sí, 100% remoto"
+10/03/2023 18:01:56,Consultora,España,,28000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 18:08:00,Consultora,España,,30000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+10/03/2023 18:53:30,Empresa de producto,España,,30000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,2,Tengo que ir a la oficina de forma regular
+10/03/2023 18:58:27,Empresa de producto,España,,18000,EUR,Full Stack,Trainee (0-1 años),Formación reglada o universitaria,Hombre,1,Tengo que ir a la oficina de forma regular
+10/03/2023 19:36:56,Consultora,España,,34000,EUR,Front End,Junior (1-4 años),Formación reglada o universitaria,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 21:11:34,Empresa de producto,España,,68000,EUR,Front End,Senior (+5 años),Formación reglada o universitaria,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 22:49:36,Start Up,España,,38000,EUR,Full Stack,Junior (1-4 años),Ciclo Superior DAW,Hombre,2,"Sí, 100% remoto"
+10/03/2023 23:43:58,Consultora,España,,23000,EUR,Data engineer,Junior (1-4 años),FP + Bootcamp ,Hombre,1,"Sí, 100% remoto"
+10/03/2023 23:52:16,Empresa de producto,España,,33000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+10/03/2023 23:59:32,Hotel ,España,,18000,EUR,Full Stack,Junior (1-4 años),CFGS DAW,Hombre,4,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+11/03/2023 0:03:12,Consultora,España,,18000,EUR,Full Stack,Trainee (0-1 años),Bootcamp,Mujer,2,"Sí, 100% remoto"
+11/03/2023 3:24:19,Consultora,España,,23000,EUR,Back End,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,Tengo que ir a la oficina de forma regular
+11/03/2023 10:16:31,Empresa de producto,España,,23000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+11/03/2023 10:43:10,Consultora,España,,27500,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,5,"Sí, 100% remoto"
+11/03/2023 11:47:15,Empresa de producto,España,,29994,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,2,"Sí, 100% remoto"
+11/03/2023 13:55:14,Consultora,España,,38000,EUR,Front End,Junior (1-4 años),Estudios universitarios en curso + autodidacta,Hombre,5,Modalidad híbrida (más de 1 día a la semana o más de 4 al mes)
+11/03/2023 14:10:21,Consultora,España,,41000,EUR,Front End,Junior (1-4 años),Bootcamp,Hombre,4,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+16/03/2023 18:57:37,Empresa de producto,España,,43000,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,"Sí, 100% remoto"
+10/03/2023 19:43:11,Empresa de producto,España,,57000,EUR,Full Stack,Junior (1-4 años),Formación reglada o universitaria,Hombre,5,Tengo que ir a la oficina de forma regular
+10/03/2023 21:43:40,Consultora,España,,18000,EUR,Front End,Trainee (0-1 años),Autodidacta,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
+10/03/2023 22:23:12,Consultora,España,,20700,EUR,Full Stack,Senior (+5 años),Formación reglada o universitaria,Hombre,3,Algún día tengo que ir a la oficina (1 día a la semana o menos)
