@@ -16,7 +16,7 @@ const shop = [
 const app = [
   { name: 'Trainee', value: 789 },
   { name: 'Junior', value: 676 },
-  { name: 'Seniro', value: 564 }
+  { name: 'Senior', value: 564 }
 ]
 
 const data = [
