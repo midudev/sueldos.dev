@@ -38,7 +38,7 @@ export function Footer () {
             </Link>
           </div>
           <p className='mt-6 text-sm text-slate-500 sm:mt-0'>
-            Desarrollado por Miguel Ángel Durán {new Date().getFullYear()}<br />
+            Desarrollado por la comunidad de midudev - {new Date().getFullYear()}<br />
             &copy; Los logos y marcas registradas pertenecen a sus respectivos dueños.
           </p>
         </div>

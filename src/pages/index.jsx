@@ -8,6 +8,7 @@ import { Salaries } from '@/components/Salaries'
 
 import { readFile } from 'node:fs/promises'
 import path from 'node:path'
+import { APISection } from '@/components/APISection'
 
 export default function Home ({ averageSalaries, count }) {
   return (
@@ -23,6 +24,7 @@ export default function Home ({ averageSalaries, count }) {
       <main>
         <Hero />
         <Salaries averageSalaries={averageSalaries} count={count} />
+        <APISection />
         {/* <PrimaryFeatures /> */}
         {/* <SecondaryFeatures /> */}
         {/* <CallToAction /> */}

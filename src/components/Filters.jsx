@@ -8,7 +8,7 @@ import { SalariesSectionTitle } from './SalariesSectionTitle'
 const EXPERIENCE = [
   {
     value: 'all',
-    text: 'Todos',
+    text: 'Cualquier experiencia',
     icon: () => <IconUserCode stroke={1} />
   },
   {
@@ -31,7 +31,7 @@ const EXPERIENCE = [
 const MODALITY = [
   {
     value: 'all',
-    text: 'Todos',
+    text: 'Cualquier modalidad',
     icon: () => <IconUserCode stroke={1} />
   },
   {
@@ -97,12 +97,13 @@ export function Filters () {
       <SalariesSectionTitle icon={<IconFilter />} title='Filtrar salario' />
       <Card>
         <div className='flex flex-col flex-wrap items-start justify-start gap-2'>
-          <Title>Selecciona los filtros:</Title>
+          <Title>Filtra el salario por:</Title>
           <div>
             <Dropdown
               className='w-56 mt-2'
-              onValueChange={(value) => console.log('The selected value is', value)}
+              onValueChange={(value) => setSelectedGender(value)}
               placeholder='Filtra por género'
+              value={selectedGender}
             >
               {
               GENDERS.map(({ value, text, icon }) => (
@@ -115,8 +116,9 @@ export function Filters () {
           <div>
             <Dropdown
               className='w-56 mt-2'
-              onValueChange={(value) => console.log('The selected value is', value)}
+              onValueChange={(value) => setSelectedExperience(value)}
               placeholder='Filtra por experiencia'
+              value={selectedExperience}
             >
               {
               EXPERIENCE.map(({ value, text, icon }) => (
@@ -129,8 +131,9 @@ export function Filters () {
           <div>
             <Dropdown
               className='w-56 mt-2'
-              onValueChange={(value) => console.log('The selected value is', value)}
+              onValueChange={(value) => setSelectedModality(value)}
               placeholder='Filtra por experiencia'
+              value={selectedModality}
             >
               {
               MODALITY.map(({ value, text, icon }) => (

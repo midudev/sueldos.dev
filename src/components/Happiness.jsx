@@ -1,6 +1,5 @@
 import {
   Title,
-  Card,
   Text,
   CategoryBar
 } from '@tremor/react'

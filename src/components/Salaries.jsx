@@ -80,6 +80,8 @@ export function Salaries ({ averageSalaries, count }) {
 
         <ProfileResults count={count} />
 
+        <SalariesByExperience />
+
         <Filters />
       </Container>
     </section>

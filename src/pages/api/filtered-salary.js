@@ -15,11 +15,11 @@ const EXPERIENCE = {
   'Trainee (0-1 años)': 'trainee'
 }
 
-const STUDIES = {
-  Bootcamp: 'bootcamp',
-  'Formación reglada o universitaria': 'formal',
-  Autodidacta: 'self'
-}
+// const STUDIES = {
+//   Bootcamp: 'bootcamp',
+//   'Formación reglada o universitaria': 'formal',
+//   Autodidacta: 'self'
+// }
 
 const GENDER = {
   Hombre: 'man',

@@ -38,11 +38,8 @@ export function Hero () {
         Recopilamos datos de forma anónima para que puedas comparar tu sueldo con el de otros desarrolladores.
       </p>
       <div className='flex justify-center mt-10 gap-x-6'>
-        <Button href='/#sueldos'>Quiero ver los sueldos</Button>
-        <Button
-          href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
-          variant='outline'
-        >
+        <Button href='#sueldos'>Quiero ver los sueldos</Button>
+        <Button href='#faq' variant='outline'>
           <span>¿De dónde salen los datos?</span>
         </Button>
       </div>
