@@ -45,7 +45,7 @@ const dataFormatter = (number) =>
 
 export function SalariesByExperience ({ averageSalaries }) {
   return (
-    <Grid id='salaries-general' numColsSm={2} numColsLg={3} className='gap-6'>
+    <Grid id='salaries-general' numColsSm={2} numColsLg={3} className='gap-6 mt-6'>
       {data.map((item) => (
         <Card key={item.category}>
 
