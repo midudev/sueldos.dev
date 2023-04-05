@@ -13,5 +13,5 @@ export default async function handler (req, res) {
   const path = join(process.cwd(), `./data/${country}.json`)
   const content = await readFile(path)
 
-  res.status(200).json({ content: content.toString() })
+  res.status(200).json({ content: JSON.parse(content) })
 }
