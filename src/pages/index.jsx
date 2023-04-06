@@ -12,34 +12,28 @@ import { APISection } from '@/components/APISection'
 
 export default function Home ({ averageSalaries, count }) {
   return (
-    <div className='grid h-screen font-semibold place-content-center'>
-      <h1>Lo abrimos HOY a las 6PM (🇪🇸) en Twitch: <a className='text-purple-500' href='https://twitch.tv/midudev'>https://twitch.tv/midudev</a></h1>
-    </div>
+    <>
+      <Head>
+        <title>sueldos.dev - Salarios en Programación en el mundo</title>
+        <meta
+          name='description'
+          content='Descubre los salarios en el mundo de la programación y el desarrollo. Añade el tuyo de forma anónima.'
+        />
+      </Head>
+      <Header />
+      <main>
+        <Hero />
+        <Salaries averageSalaries={averageSalaries} count={count} />
+        <APISection />
+        {/* <PrimaryFeatures /> */}
+        {/* <SecondaryFeatures /> */}
+        {/* <CallToAction /> */}
+        {/* <Testimonials /> */}
+        <Faqs />
+      </main>
+      <Footer />
+    </>
   )
-
-  // return (
-  //   <>
-  //     <Head>
-  //       <title>sueldos.dev - Salarios en Programación en el mundo</title>
-  //       <meta
-  //         name='description'
-  //         content='Descubre los salarios en el mundo de la programación y el desarrollo. Añade el tuyo de forma anónima.'
-  //       />
-  //     </Head>
-  //     <Header />
-  //     <main>
-  //       <Hero />
-  //       <Salaries averageSalaries={averageSalaries} count={count} />
-  //       <APISection />
-  //       {/* <PrimaryFeatures /> */}
-  //       {/* <SecondaryFeatures /> */}
-  //       {/* <CallToAction /> */}
-  //       {/* <Testimonials /> */}
-  //       <Faqs />
-  //     </main>
-  //     <Footer />
-  //   </>
-  // )
 }
 
 export async function getStaticProps (context) {

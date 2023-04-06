@@ -49,6 +49,7 @@ export function Salaries ({ averageSalaries, count }) {
         <SalariesTabs />
 
         <SalariesSectionTitle id='salaries-general' icon={<IconCash />} title='Resultados generales' />
+
         <Grid numColsLg={6} className='gap-6 mt-6 mb-6'>
           <Col numColSpanLg={4}>
             <BarChartComponent
