@@ -7,7 +7,6 @@ import AdevintaLogo from '@/images/logos/adevinta.webp'
 import GlobantLogo from '@/images/logos/globant.webp'
 import NttDataLogo from '@/images/logos/nttdata.webp'
 import OracleLogo from '@/images/logos/oracle.webp'
-import SofttekLogo from '@/images/logos/softtek.webp'
 import Stratesys from '@/images/logos/stratesys.webp'
 
 export function Hero () {
@@ -59,8 +58,7 @@ export function Hero () {
             ],
             [
               { name: 'Oracle', logo: OracleLogo },
-              { name: 'NTT Data', logo: NttDataLogo },
-              { name: 'Softtek', logo: SofttekLogo }
+              { name: 'NTT Data', logo: NttDataLogo }
             ]
           ].map((group, groupIndex) => (
             <li key={groupIndex}>
