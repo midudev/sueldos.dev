@@ -2,60 +2,7 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-faqs.jpg'
-
-const faqs = [
-  [
-    {
-      question: '¿De dónde salen los datos?',
-      answer:
-        'Actualmente, los datos vienen de una encuesta anónima con más de 4000 desarrolladores de España y Latinoamérica. Más adelante podrás enviar tu sueldo de forma anónima desde esta página.'
-    },
-    {
-      question: '¿Puedo usar los datos en mi página web?',
-      answer: 'Sí. Siempre y cuando nos cites como fuente.'
-    },
-    {
-      question: '¿Cuándo se activarán los paises de Latinoamérica?',
-      answer:
-        'Estamos filtrando y arreglando los datos para que sean lo más precisos posibles. En breve estará disponible.'
-    }
-  ],
-  [
-    {
-      question: '¿Son fiables los datos?',
-      answer:
-        'Intentamos filtrar los datos claramente erróneos, pero no podemos garantizar que todos los datos sean correctos o ciertos. Pero confiamos que la gente responde de buena fe al ser una encuesta anónima.'
-    },
-    {
-      question:
-        '¿Se puede filtrar por compañía o por ciudad?',
-      answer:
-        'Poco a poco vamos a ir añadiendo más filtros. El primero en el que estamos trabajando es el de filtrar por empresa.'
-    },
-    {
-      question:
-        'Me gustaría añadir mi sueldo de forma anónima, ¿cómo puedo hacerlo?',
-      answer:
-        'Actualmente la encuesta está cerrada, pero estamos trabajando para que puedas añadirlo directamente desde esta página.'
-    }
-  ],
-  [
-    {
-      question: '¿Dónde encuentro el código de la página?',
-      answer:
-        'Por ahora no está disponible, pero pronto lo tendrás en GitHub.'
-    },
-    {
-      question: '¿Dónde puedo encontrar más información sobre el proyecto?',
-      answer: 'Este proyecto ha sido desarrollado por Miguel Ángel Durán (@midudev). Puedes saber más del proyecto en su Twitter o Twitch.'
-    },
-    {
-      question: '¿Cómo puedo apoyar este proyecto?',
-      answer:
-        'Compartiéndolo en las redes sociales. También puedes a Miguel Ángel Durán en su Patreon o suscribiéndote a su canal de Twitch.'
-    }
-  ]
-]
+import { FAQs } from '@/constants'
 
 export function Faqs () {
   return (
@@ -88,7 +35,7 @@ export function Faqs () {
           role='list'
           className='grid max-w-2xl grid-cols-1 gap-8 mx-auto mt-16 lg:max-w-none lg:grid-cols-3'
         >
-          {faqs.map((column, columnIndex) => (
+          {FAQs.map((column, columnIndex) => (
             <li key={columnIndex}>
               <ul role='list' className='flex flex-col gap-y-8'>
                 {column.map((faq, faqIndex) => (

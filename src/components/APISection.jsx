@@ -8,193 +8,7 @@ import { gradientDark as theme } from 'react-syntax-highlighter/dist/cjs/styles/
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-
-const features = [
-  {
-    title: '/api/get-country-data',
-    description:
-      'Consigue todos los datos sobre sueldos de un país',
-    code: `fetch('https://sueldos.dev/api/get-country-data?country=es')
-      .then(res => res.json())
-      .then(data => console.log(data))
-              
-    data = {
-      "content": {
-        "averageSalaries": {
-          "total": 32760.097333333335,
-          "gender": {
-            "man": 33184.455604075694,
-            "woman": 28282.533333333333,
-            "noGender": 25133.333333333332
-          },
-          "experience": {
-            "trainee": 0,
-            "junior": 0,
-            "senior": 0
-          },
-          "modality": {
-            "remote": 0,
-            "office": 0,
-            "hybrid": 0,
-            "mostlyRemote": 0
-          },
-          "genderAndExperience": {
-            "trainee": {
-              "man": 19178.029411764706,
-              "woman": 19226.666666666668,
-              "noGender": null
-            },
-            "junior": {
-              "man": 28438.018633540374,
-              "woman": 28283.870967741936,
-              "noGender": 31000
-            },
-            "senior": {
-              "man": 44427.83269961977,
-              "woman": 37982.28571428572,
-              "noGender": 22200
-            }
-          }
-        },
-        "count": {
-          "total": 750,
-          "gender": {
-            "man": 687,
-            "woman": 60,
-            "noGender": 3
-          },
-          "modality": {
-            "remote": 392,
-            "office": 89,
-            "hybrid": 135,
-            "mostlyRemote": 132,
-            "undefined": null
-          },
-          "experience": {
-            "junior": 354,
-            "senior": 279,
-            "trainee": 117
-          },
-          "studies": {
-            "bootcamp": 66,
-            "formal": 548,
-            "self": 97,
-            "undefined": null
-          },
-          "genderAndExperience": {
-            "junior": {
-              "man": 322,
-              "woman": 31,
-              "noGender": 1
-            },
-            "senior": {
-              "man": 263,
-              "woman": 14,
-              "noGender": 2
-            },
-            "trainee": {
-              "man": 102,
-              "woman": 15,
-              "noGender": 0
-            }
-          }
-        }
-      }
-    }`
-  },
-  {
-    title: '/api/filtered-salary',
-    description:
-      'Consigue el sueldo medio anual de un país filtrando por género, experiencia y modalidad de trabajo',
-    code: `fetch('https://sueldos.dev/api/get-country-data?country=es')
-  .then(res => res.json())
-  .then(data => console.log(data))
-          
-data = {
-  "content": {
-    "averageSalaries": {
-      "total": 32760.097333333335,
-      "gender": {
-        "man": 33184.455604075694,
-        "woman": 28282.533333333333,
-        "noGender": 25133.333333333332
-      },
-      "experience": {
-        "trainee": 0,
-        "junior": 0,
-        "senior": 0
-      },
-      "modality": {
-        "remote": 0,
-        "office": 0,
-        "hybrid": 0,
-        "mostlyRemote": 0
-      },
-      "genderAndExperience": {
-        "trainee": {
-          "man": 19178.029411764706,
-          "woman": 19226.666666666668,
-          "noGender": null
-        },
-        "junior": {
-          "man": 28438.018633540374,
-          "woman": 28283.870967741936,
-          "noGender": 31000
-        },
-        "senior": {
-          "man": 44427.83269961977,
-          "woman": 37982.28571428572,
-          "noGender": 22200
-        }
-      }
-    },
-    "count": {
-      "total": 750,
-      "gender": {
-        "man": 687,
-        "woman": 60,
-        "noGender": 3
-      },
-      "modality": {
-        "remote": 392,
-        "office": 89,
-        "hybrid": 135,
-        "mostlyRemote": 132,
-        "undefined": null
-      },
-      "experience": {
-        "junior": 354,
-        "senior": 279,
-        "trainee": 117
-      },
-      "studies": {
-        "bootcamp": 66,
-        "formal": 548,
-        "self": 97,
-        "undefined": null
-      },
-      "genderAndExperience": {
-        "junior": {
-          "man": 322,
-          "woman": 31,
-          "noGender": 1
-        },
-        "senior": {
-          "man": 263,
-          "woman": 14,
-          "noGender": 2
-        },
-        "trainee": {
-          "man": 102,
-          "woman": 15,
-          "noGender": 0
-        }
-      }
-    }
-  }
-}`
-  }
-]
+import { API_FEATURES_LIST } from '@/constants'
 
 export function APISection () {
   const [tabOrientation, setTabOrientation] = useState('horizontal')
@@ -246,7 +60,7 @@ export function APISection () {
             <>
               <div className='flex pb-4 -mx-4 overflow-x-auto sm:mx-0 sm:overflow-visible sm:pb-0 lg:col-span-5'>
                 <Tab.List className='relative z-10 flex px-4 gap-x-4 whitespace-nowrap sm:mx-auto sm:px-0 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal'>
-                  {features.map((feature, featureIndex) => (
+                  {API_FEATURES_LIST.map((feature, featureIndex) => (
                     <div
                       key={feature.title}
                       className={clsx(
@@ -284,7 +98,7 @@ export function APISection () {
                 </Tab.List>
               </div>
               <Tab.Panels className='lg:col-span-7'>
-                {features.map((feature) => (
+                {API_FEATURES_LIST.map((feature) => (
                   <Tab.Panel key={feature.title} unmount={false}>
                     <div className='relative sm:px-6 lg:hidden'>
                       <div className='absolute -inset-x-4 bottom-[-4.25rem] top-[-6.5rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl' />
