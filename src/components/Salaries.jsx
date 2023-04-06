@@ -10,6 +10,7 @@ import { SalariesTabs } from './SalariesTabs'
 import { SalariesSectionTitle } from './SalariesSectionTitle'
 import { IconCash } from '@tabler/icons-react'
 import { formatNumberToEur } from '@/utils/formatters'
+import { GraphBasedOnCountry } from './GraphBasedOnCountry'
 
 const calculateSalariesByGenderAndExperience = ({ averageSalaries }) => {
   const { gender, genderAndExperience } = averageSalaries
@@ -47,6 +48,8 @@ export function Salaries ({ averageSalaries, count }) {
         </header>
 
         <SalariesTabs />
+
+        <GraphBasedOnCountry />
 
         <SalariesSectionTitle id='salaries-general' icon={<IconCash />} title='Resultados generales' />
 
