@@ -54,9 +54,9 @@ const dataFormatter = (number) => {
 export function GraphBasedOnCountry () {
   return (
     <Card>
-      <Title>Paises mas populares</Title>
+      <Title>Países mas populares</Title>
       <Subtitle>
-        De que pais proviene la gente que vota.
+        De que país proviene la gente que vota.
       </Subtitle>
       <BarChart
         className='mt-6'
