@@ -31,7 +31,7 @@ export function Hero () {
           </svg>
           <span className='relative'>los sueldos</span>
         </span>{' '}
-        en el mundo de la programación.
+        en el mundo de la programación
       </h1>
       <p className='max-w-xl mx-auto mt-6 text-lg tracking-tight text-slate-700'>
         Recopilamos datos de forma anónima para que puedas comparar tu sueldo con el de otros desarrolladores.
