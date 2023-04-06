@@ -78,9 +78,9 @@ export function Salaries ({ averageSalaries, count }) {
           </Col>
         </Grid>
 
-        <ProfileResults count={count} />
+        <SalariesByExperience averageSalaries={averageSalaries} />
 
-        <SalariesByExperience />
+        <ProfileResults count={count} />
 
         <Filters />
       </Container>
