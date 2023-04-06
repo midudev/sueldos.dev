@@ -16,8 +16,6 @@
     "autoprefixer": "10.4.14",
     "clsx": "1.2.1",
     "csv": "6.2.8",
-    "eslint": "8.37.0",
-    "eslint-config-next": "13.2.4",
     "focus-visible": "5.2.0",
     "next": "13.2.4",
     "postcss": "8.4.21",
@@ -30,6 +28,8 @@
     "use-count-up": "^3.0.1"
   },
   "devDependencies": {
-    "standard": "^17.0.0"
+    "standard": "^17.0.0",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4"
   }
 }
