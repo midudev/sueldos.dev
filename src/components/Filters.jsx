@@ -93,7 +93,6 @@ export function Filters () {
   const [result, setResult] = useState(null)
 
   useEffect(() => {
-    console.log({ selectedExperience })
     fetch(`/api/filtered-salary?country=es&experience=${selectedExperience}&modality=${selectedModality}&gender=${selectedGender}`)
       .then(res => {
         if (res.ok) return res.json()
