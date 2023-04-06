@@ -42,16 +42,41 @@ const averageSalaries = {
     woman: 0,
     noGender: 0
   },
-  experience: {
-    trainee: 0,
-    junior: 0,
-    senior: 0
-  },
   modality: {
     remote: 0,
     office: 0,
     hybrid: 0,
     mostlyRemote: 0
+  },
+  experience: {
+    trainee: 0,
+    junior: 0,
+    senior: 0
+  },
+  studies: {
+    bootcamp: 0,
+    formal: 0,
+    self: 0
+  },
+  modalityAndExperience: {
+    trainee: {
+      remote: 0,
+      office: 0,
+      hybrid: 0,
+      mostlyRemote: 0
+    },
+    junior: {
+      remote: 0,
+      office: 0,
+      hybrid: 0,
+      mostlyRemote: 0
+    },
+    senior: {
+      remote: 0,
+      office: 0,
+      hybrid: 0,
+      mostlyRemote: 0
+    }
   },
   genderAndExperience: {
     trainee: {
@@ -86,14 +111,34 @@ const count = {
     mostlyRemote: 0
   },
   experience: {
+    trainee: 0,
     junior: 0,
-    senior: 0,
-    trainee: 0
+    senior: 0
   },
   studies: {
     bootcamp: 0,
     formal: 0,
     self: 0
+  },
+  modalityAndExperience: {
+    trainee: {
+      remote: 0,
+      office: 0,
+      hybrid: 0,
+      mostlyRemote: 0
+    },
+    junior: {
+      remote: 0,
+      office: 0,
+      hybrid: 0,
+      mostlyRemote: 0
+    },
+    senior: {
+      remote: 0,
+      office: 0,
+      hybrid: 0,
+      mostlyRemote: 0
+    }
   },
   genderAndExperience: {
     junior: {
@@ -149,6 +194,8 @@ records.forEach(record => {
   const $studies = STUDIES[studies]
   let $gender = 'noGender'
 
+  console.log($modality)
+
   if (gender === 'Hombre') {
     $gender = 'man'
     count.gender.man++
@@ -181,11 +228,16 @@ records.forEach(record => {
   count.modality[$modality]++
   count.studies[$studies]++
   count.total++
+  count.genderAndExperience[$experience][$gender]++
+  count.modalityAndExperience[$experience][$modality]++
 
   averageHappy.total += +happy
   averageSalaries.total += +salary
+  averageSalaries.modality[$modality] += +salary
+  averageSalaries.experience[$experience] += +salary
+  averageSalaries.studies[$studies] += +salary
   averageSalaries.genderAndExperience[$experience][$gender] += +salary
-  count.genderAndExperience[$experience][$gender]++
+  averageSalaries.modalityAndExperience[$experience][$modality] += +salary
 })
 
 // calculate average salaries using the expected division
@@ -198,7 +250,7 @@ function divideByCount (average, count) {
     if (typeof average[key] === 'object') {
       divideByCount(average[key], count[key])
     } else {
-      average[key] = average[key] / count[key]
+      average[key] = Math.round(average[key] / count[key])
     }
   })
 }
