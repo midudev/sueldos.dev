@@ -15,11 +15,11 @@ const EXPERIENCE = {
   'Trainee (0-1 años)': 'trainee'
 }
 
-// const STUDIES = {
-//   Bootcamp: 'bootcamp',
-//   'Formación reglada o universitaria': 'formal',
-//   Autodidacta: 'self'
-// }
+const STUDIES = {
+  Bootcamp: 'bootcamp',
+  'Formación reglada o universitaria': 'formal',
+  Autodidacta: 'self'
+}
 
 const GENDER = {
   Hombre: 'man',
@@ -28,22 +28,23 @@ const GENDER = {
 }
 
 function matchFilter (filterValue, recordValue) {
-  if (filterValue === undefined) return true
+  console.log(filterValue)
+  if (filterValue === undefined || filterValue === 'all') return true
   return filterValue === recordValue
 }
 
 export default async function handler (req, res) {
-  const country = 'España' // eslint-disable-line
-  const { gender, modality, experience } = req.query
+  const country = 'es' // eslint-disable-line
+  const { gender, modality, experience, studies } = req.query
 
   const path = join(process.cwd(), './data/es.csv')
   const content = await readFile(path)
   const records = parse(content.toString(), { bom: true, columns: true })
 
-  const results = {
+  const result = {
     count: 0,
-    salaries: 0,
-    happines: 0
+    salary: 0,
+    happiness: 0
   }
 
   records.forEach(record => {
@@ -52,18 +53,23 @@ export default async function handler (req, res) {
     const $gender = GENDER[record.gender]
     const $experience = EXPERIENCE[record.experience]
     const $remote = REMOTE_MODALITIES[record.remote]
+    const $study = STUDIES[record.study]
 
     // check if record matches filters
     if (
       matchFilter(gender, $gender) &&
       matchFilter(modality, $remote) &&
-      matchFilter(experience, $experience)
+      matchFilter(experience, $experience) &&
+      matchFilter(studies, $study)
     ) {
-      results.count++
-      results.salaries += Number(record.salary)
-      results.happines += Number(happy)
+      result.count++
+      result.salary += Number(record.salary)
+      result.happiness += Number(happy)
     }
   })
 
-  res.status(200).json({ records })
+  result.salary = Math.round(result.salary / result.count)
+  result.happiness = Math.round(result.happiness / result.count * 100) / 100
+
+  res.status(200).json({ result })
 }
