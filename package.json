@@ -22,6 +22,7 @@
     "next": "13.2.4",
     "postcss": "8.4.21",
     "react": "18.2.0",
+    "react-animated-numbers": "^0.16.0",
     "react-dom": "18.2.0",
     "react-highlight": "^0.15.0",
     "react-syntax-highlighter": "^15.5.0",
