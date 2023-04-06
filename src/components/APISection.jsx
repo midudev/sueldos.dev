@@ -216,7 +216,7 @@ export function APISection () {
 
   return (
     <section
-      id='features'
+      id='api'
       aria-label='Features for running your books'
       className='relative pt-20 overflow-hidden bg-blue-600 pb-28 sm:py-32'
     >
@@ -234,7 +234,7 @@ export function APISection () {
             Documentación de la API
           </h2>
           <p className='mt-6 text-lg tracking-tight text-blue-100'>
-            Usa los datos de sueldos.dev sin límite.<br />Debes añadir un enlace a sueldos.dev en tu sitio web.
+            Usa los datos de sueldos.dev sin límite.<br />Debes <span className='border-b '>añadir un enlace a sueldos.dev en tu sitio web al usar la API.</span>
           </p>
         </div>
         <Tab.Group
@@ -293,7 +293,7 @@ export function APISection () {
                       </p>
                     </div>
                     <div className='mt-10 w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]'>
-                      <div className='w-full overflow-scroll h-96 [&>pre]:p-4!'>
+                      <div className='editor w-full overflow-scroll h-96 [&>pre]:p-4!'>
                         <SyntaxHighlighter
                           language='javascript'
                           style={theme}
