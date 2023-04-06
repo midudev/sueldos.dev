@@ -52,7 +52,7 @@ const faqs = [
     {
       question: '¿Cómo puedo apoyar este proyecto?',
       answer:
-        'Compartiéndolo en las redes sociales. También puedes a Miguel Ángel Durán en su Patreon o suscribiéndote a su canal de Twitch.'
+        'Compartiéndolo en las redes sociales. También puedes apoyar a Miguel Ángel Durán en su Patreon o suscribiéndote a su canal de Twitch.'
     }
   ]
 ]
