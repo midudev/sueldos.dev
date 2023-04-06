@@ -32,7 +32,6 @@ const DATA_ES_FILE_PATH = join(DATA_PATH, 'es.csv')
 const OUTPUT_ES_FILE_PATH = join(DATA_PATH, 'es.json')
 
 const content = await readFile(DATA_ES_FILE_PATH)
-console.log(content.toString())
 const records = parse(content.toString(), { bom: true, columns: true })
 
 const averageSalaries = {
@@ -193,8 +192,6 @@ records.forEach(record => {
   const $modality = REMOTE_MODALITIES[remote]
   const $studies = STUDIES[studies]
   let $gender = 'noGender'
-
-  console.log($modality)
 
   if (gender === 'Hombre') {
     $gender = 'man'
