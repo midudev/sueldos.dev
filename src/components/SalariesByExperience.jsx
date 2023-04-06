@@ -16,7 +16,7 @@ const shop = [
 const app = [
   { name: 'Trainee', value: 789 },
   { name: 'Junior', value: 676 },
-  { name: 'Seniro', value: 564 }
+  { name: 'Senior', value: 564 }
 ]
 
 const data = [
@@ -45,7 +45,7 @@ const dataFormatter = (number) =>
 
 export function SalariesByExperience ({ averageSalaries }) {
   return (
-    <Grid id='salaries-general' numColsSm={2} numColsLg={3} className='gap-6'>
+    <Grid id='salaries-general' numColsSm={2} numColsLg={3} className='gap-6 mt-6'>
       {data.map((item) => (
         <Card key={item.category}>
 

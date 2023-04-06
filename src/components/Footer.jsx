@@ -13,6 +13,7 @@ export function Footer () {
         <div className='flex flex-col items-center py-10 border-t border-slate-400/10 sm:flex-row-reverse sm:justify-between'>
           <div className='flex gap-x-6'>
             <Link
+              target='_blank'
               href='https://twitter.com/midudev'
               className='group'
               aria-label='Twitter de Midudev'
@@ -25,6 +26,7 @@ export function Footer () {
               </svg>
             </Link>
             <Link
+              target='_blank'
               href='https://github.com/midudev'
               className='group'
               aria-label='sueldos.dev on GitHub'
