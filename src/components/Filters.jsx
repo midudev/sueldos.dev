@@ -106,7 +106,7 @@ export function Filters () {
   return (
     <section id='salaries-filter'>
       <SalariesSectionTitle icon={<IconFilter />} title='Filtrar salario' />
-      <Card className='flex items-center justify-between'>
+      <Card className='flex items-center justify-between flex-wrap'>
         <div className='flex flex-col flex-wrap items-start justify-start gap-2'>
           <div>
             <Dropdown
