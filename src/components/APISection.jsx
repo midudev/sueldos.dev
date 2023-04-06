@@ -8,6 +8,7 @@ import { gradientDark as theme } from 'react-syntax-highlighter/dist/cjs/styles/
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
+import { API_FEATURES_LIST } from '@/constants'
 
 export function APISection () {
   const [tabOrientation, setTabOrientation] = useState('horizontal')
@@ -59,7 +60,7 @@ export function APISection () {
             <>
               <div className='flex pb-4 -mx-4 overflow-x-auto sm:mx-0 sm:overflow-visible sm:pb-0 lg:col-span-5'>
                 <Tab.List className='relative z-10 flex px-4 gap-x-4 whitespace-nowrap sm:mx-auto sm:px-0 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal'>
-                  {features.map((feature, featureIndex) => (
+                  {API_FEATURES_LIST.map((feature, featureIndex) => (
                     <div
                       key={feature.title}
                       className={clsx(
@@ -97,7 +98,7 @@ export function APISection () {
                 </Tab.List>
               </div>
               <Tab.Panels className='lg:col-span-7'>
-                {features.map((feature) => (
+                {API_FEATURES_LIST.map((feature) => (
                   <Tab.Panel key={feature.title} unmount={false}>
                     <div className='relative sm:px-6 lg:hidden'>
                       <div className='absolute -inset-x-4 bottom-[-4.25rem] top-[-6.5rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl' />
