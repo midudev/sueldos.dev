@@ -2,8 +2,13 @@ import { useState, useEffect } from 'react'
 import { Dropdown, DropdownItem, Card, Title } from '@tremor/react'
 import { FriendsIcon, ManIcon, NoGenderIcon, WomanIcon } from './Icons'
 import { IconBeach, IconHome, IconSchool, IconBuildingSkyscraper, IconSquareHalf, IconAntennaBars5, IconAntennaBars3, IconUserCode, IconFilter } from '@tabler/icons-react'
+import dynamic from 'next/dynamic'
 
 import { SalariesSectionTitle } from './SalariesSectionTitle'
+
+const AnimatedNumbers = dynamic(() => import('react-animated-numbers'), {
+  ssr: false
+})
 
 const EXPERIENCE = [
   {
@@ -83,21 +88,26 @@ export function Filters () {
   const [selectedExperience, setSelectedExperience] = useState('all')
   const [selectedModality, setSelectedModality] = useState('all')
   const [selectedGender, setSelectedGender] = useState('all')
+  const [selectedStudy, setSelectedStudy] = useState('all')
+
+  const [result, setResult] = useState(null)
 
   useEffect(() => {
-    fetch('/api/filtered-salary')
-      .then(res => res.json())
-      .then(data => {
-        console.log(data)
+    console.log({ selectedExperience })
+    fetch(`/api/filtered-salary?country=es&experience=${selectedExperience}&modality=${selectedModality}&gender=${selectedGender}`)
+      .then(res => {
+        if (res.ok) return res.json()
+        throw new Error('Error al obtener los datos')
       })
-  })
+      .then(res => setResult(res.result))
+      .catch(() => setResult(null))
+  }, [selectedExperience, selectedModality, selectedGender, selectedStudy])
 
   return (
     <section id='salaries-filter'>
       <SalariesSectionTitle icon={<IconFilter />} title='Filtrar salario' />
-      <Card>
+      <Card className='flex items-center justify-between'>
         <div className='flex flex-col flex-wrap items-start justify-start gap-2'>
-          <Title>Filtra el salario por:</Title>
           <div>
             <Dropdown
               className='w-56 mt-2'
@@ -143,6 +153,22 @@ export function Filters () {
             </Dropdown>
           </div>
         </div>
+
+        <div className='flex justify-center flex-1'>
+          {
+          result && (
+            <div className='flex flex-col items-center'>
+              <strong className='text-7xl md:text-8xl lg:text-9xl'>
+                <span className='flex'>
+                  <AnimatedNumbers locale='es-ES' includeComma animateToNumber={result.salary} />€
+                </span>
+              </strong>
+              <small className='flex mt-4 text-sm text-gray-500 gap-x-1'>Basado en <AnimatedNumbers locale='es-ES' includeComma animateToNumber={result.count} /> resultados</small>
+            </div>
+          )
+        }
+        </div>
+
       </Card>
 
     </section>
