@@ -2,35 +2,64 @@
   "averageSalaries": {
     "total": 32760.097333333335,
     "gender": {
-      "man": 33184.455604075694,
-      "woman": 28282.533333333333,
-      "noGender": 25133.333333333332
-    },
-    "experience": {
-      "trainee": 0,
-      "junior": 0,
-      "senior": 0
+      "man": 33184,
+      "woman": 28283,
+      "noGender": 25133
     },
     "modality": {
-      "remote": 0,
-      "office": 0,
-      "hybrid": 0,
-      "mostlyRemote": 0
+      "remote": 34821,
+      "office": 24199,
+      "hybrid": 32841,
+      "mostlyRemote": 32357,
+      "undefined": null
+    },
+    "experience": {
+      "trainee": 19184,
+      "junior": 28432,
+      "senior": 43945
+    },
+    "studies": {
+      "bootcamp": 28106,
+      "formal": 33668,
+      "self": 31973,
+      "undefined": null
+    },
+    "modalityAndExperience": {
+      "trainee": {
+        "remote": 18003,
+        "office": 20164,
+        "hybrid": 20226,
+        "mostlyRemote": 19743
+      },
+      "junior": {
+        "remote": 28759,
+        "office": 25321,
+        "hybrid": 29106,
+        "mostlyRemote": 29210,
+        "undefined": null
+      },
+      "senior": {
+        "remote": 46792,
+        "office": 26037,
+        "hybrid": 42823,
+        "mostlyRemote": 42883,
+        "undefined": null
+      }
     },
     "genderAndExperience": {
       "trainee": {
-        "man": 19178.029411764706,
-        "woman": 19226.666666666668,
+        "man": 19178,
+        "woman": 19227,
         "noGender": null
       },
       "junior": {
-        "man": 28438.018633540374,
-        "woman": 28283.870967741936,
+        "man": 28438,
+        "woman": 28284,
         "noGender": 31000
       },
       "senior": {
-        "man": 44427.83269961977,
-        "woman": 37982.28571428572,
+        "man": 44428,
+        "woman": 37982,
         "noGender": 22200
       }
     }
@@ -50,15 +79,37 @@
       "undefined": null
     },
     "experience": {
+      "trainee": 117,
       "junior": 354,
-      "senior": 279,
-      "trainee": 117
+      "senior": 279
     },
     "studies": {
       "bootcamp": 66,
       "formal": 548,
       "self": 97,
       "undefined": null
+    },
+    "modalityAndExperience": {
+      "trainee": {
+        "remote": 49,
+        "office": 22,
+        "hybrid": 22,
+        "mostlyRemote": 24
+      },
+      "junior": {
+        "remote": 182,
+        "office": 48,
+        "hybrid": 62,
+        "mostlyRemote": 61,
+        "undefined": null
+      },
+      "senior": {
+        "remote": 161,
+        "office": 19,
+        "hybrid": 51,
+        "mostlyRemote": 47,
+        "undefined": null
+      }
     },
     "genderAndExperience": {
       "junior": {
