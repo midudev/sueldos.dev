@@ -106,7 +106,7 @@ const features = [
     title: '/api/filtered-salary',
     description:
       'Consigue el sueldo medio anual de un país filtrando por género, experiencia y modalidad de trabajo',
-    code: `fetch('https://sueldos.dev/api/get-country-data?country=es')
+    code: `fetch('https://sueldos.dev/api/filtered-salary?country=es')
   .then(res => res.json())
   .then(data => console.log(data))
           
