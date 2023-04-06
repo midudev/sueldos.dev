@@ -9,6 +9,12 @@ import { gradientDark as theme } from 'react-syntax-highlighter/dist/cjs/styles/
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
 import { API_FEATURES_LIST } from '@/constants'
+import { IconCopy } from '@tabler/icons-react'
+import { Button } from './Button'
+
+const handleCopyAttribution = () => {
+  navigator.clipboard.writeText('Datos extraidos de <a href="https://sueldos.dev/">sueldos.dev</a>')
+}
 
 export function APISection () {
   const [tabOrientation, setTabOrientation] = useState('horizontal')
@@ -50,6 +56,14 @@ export function APISection () {
           <p className='mt-6 text-lg tracking-tight text-blue-100'>
             Usa los datos de sueldos.dev sin límite.<br />Debes <span className='border-b '>añadir un enlace a sueldos.dev en tu sitio web al usar la API.</span>
           </p>
+        </div>
+        <div className='flex items-center'>
+          <Button onClick={handleCopyAttribution} className='flex gap-2 items-center justify-center my-6 md:mx-auto self-center text-sm'>
+            <span>
+              Datos extraidos de <a className='underline' href='https://sueldos.dev/'>sueldos.dev</a>
+            </span>
+            <IconCopy />
+          </Button>
         </div>
         <Tab.Group
           as='div'
