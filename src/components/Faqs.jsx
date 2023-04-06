@@ -15,7 +15,7 @@ const faqs = [
       answer: 'Sí. Siempre y cuando nos cites como fuente.'
     },
     {
-      question: '¿Cuándo se activarán los paises de Latinoamérica?',
+      question: '¿Cuándo se activarán los países de Latinoamérica?',
       answer:
         'Estamos filtrando y arreglando los datos para que sean lo más precisos posibles. En breve estará disponible.'
     }
