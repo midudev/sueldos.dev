@@ -70,8 +70,8 @@ export function APISection () {
                           : 'hover:bg-white/10 lg:hover:bg-white/5'
                       )}
                     >
-                      <h3>
-                        <Tab
+                      <Tab>
+                        <h3
                           className={clsx(
                             'font-display text-lg [&:not(:focus-visible)]:focus:outline-none',
                             selectedIndex === featureIndex
@@ -81,8 +81,8 @@ export function APISection () {
                         >
                           <span className='absolute inset-0 rounded-full lg:rounded-l-xl lg:rounded-r-none' />
                           {feature.title}
-                        </Tab>
-                      </h3>
+                        </h3>
+                      </Tab>
                       <p
                         className={clsx(
                           'mt-2 hidden text-sm lg:block',
