@@ -42,8 +42,8 @@ const faqs = [
   [
     {
       question: '¿Dónde encuentro el código de la página?',
-      answer:
-        'Por ahora no está disponible, pero pronto lo tendrás en GitHub.'
+      href: true,
+      answer: 'Está disponible en este repo de <a class="underline transition-all hover:text-blue-800" href="https://github.com/midudev/sueldos.dev" target="_blank">Github</a>.'
     },
     {
       question: '¿Dónde puedo encontrar más información sobre el proyecto?',
@@ -96,7 +96,18 @@ export function Faqs () {
                     <h3 className='text-lg leading-6 font-display text-slate-900'>
                       {faq.question}
                     </h3>
-                    <p className='mt-1 text-sm text-slate-700'>{faq.answer}</p>
+                    {faq.href === true
+                      ? (
+                        <p
+                          className='mt-1 text-sm text-slate-700'
+                          dangerouslySetInnerHTML={{ __html: faq.answer }}
+                        />
+                        )
+                      : (
+                        <p className='mt-1 text-sm text-slate-700'>
+                          {faq.answer}
+                        </p>
+                        )}
                   </li>
                 ))}
               </ul>
