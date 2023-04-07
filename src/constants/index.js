@@ -225,7 +225,7 @@ export const FAQs = [
     {
       question: '¿Dónde encuentro el código de la página?',
       answer:
-        'Por ahora no está disponible, pero pronto lo tendrás en GitHub.'
+        'El código está disponible en el GitHub de (@midudev), anímate a colaborar.'
     },
     {
       question: '¿Dónde puedo encontrar más información sobre el proyecto?',
