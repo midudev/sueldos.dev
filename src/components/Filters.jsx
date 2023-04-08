@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Dropdown, DropdownItem, Card, Title } from '@tremor/react'
+import { Dropdown, DropdownItem, Card } from '@tremor/react'
 import { FriendsIcon, ManIcon, NoGenderIcon, WomanIcon } from './Icons'
 import { IconBeach, IconHome, IconSchool, IconBuildingSkyscraper, IconSquareHalf, IconAntennaBars5, IconAntennaBars3, IconUserCode, IconFilter, IconAward, IconDirections, IconRocket } from '@tabler/icons-react'
 import dynamic from 'next/dynamic'
