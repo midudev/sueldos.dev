@@ -1,3 +1,8 @@
+export const TWITTER_URL = 'https://twitter.com/midudev'
+export const GITHUB_URL = 'https://github.com/midudev'
+export const DISCORD_URL = 'https://discord.gg/midudev'
+export const REPOSITORY_URL = 'https://github.com/midudev/sueldos.dev'
+
 export const API_FEATURES_LIST = [
   {
     title: '/api/get-country-data',
@@ -222,11 +227,6 @@ export const FAQs = [
     }
   ],
   [
-    {
-      question: '¿Dónde encuentro el código de la página?',
-      answer:
-        'El código está disponible en el GitHub de (@midudev), anímate a colaborar.'
-    },
     {
       question: '¿Dónde puedo encontrar más información sobre el proyecto?',
       answer: 'Este proyecto ha sido desarrollado por Miguel Ángel Durán (@midudev). Puedes saber más del proyecto en su Twitter o Twitch.'

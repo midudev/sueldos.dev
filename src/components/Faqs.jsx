@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-faqs.jpg'
-import { FAQs } from '@/constants'
+import { DISCORD_URL, FAQs } from '@/constants'
 
 export function Faqs () {
   return (
@@ -28,7 +28,7 @@ export function Faqs () {
             Preguntas frecuentes
           </h2>
           <p className='mt-4 text-lg tracking-tight text-slate-700'>
-            Si no encuentras aquí tu pregunta, puedes acceder al <a className='underline transition-all hover:text-blue-800' href='https://discord.gg/midudev' target='_blank'>Discord de la comunidad</a> para que te ayuden.
+            Si no encuentras aquí tu pregunta, puedes acceder al <a className='underline transition-all hover:text-blue-800' href={DISCORD_URL}>Discord de la comunidad</a> para que te ayuden.
           </p>
         </div>
         <ul
