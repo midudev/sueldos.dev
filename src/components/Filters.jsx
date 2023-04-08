@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useFilters } from '@/hooks/useFilters'
 import { Dropdown, DropdownItem, Card } from '@tremor/react'
 import { IconFilter } from '@tabler/icons-react'
 import dynamic from 'next/dynamic'
@@ -11,22 +11,11 @@ const AnimatedNumbers = dynamic(() => import('react-animated-numbers'), {
 })
 
 export function Filters () {
-  const [selectedExperience, setSelectedExperience] = useState('all')
-  const [selectedModality, setSelectedModality] = useState('all')
-  const [selectedGender, setSelectedGender] = useState('all')
-  const [selectedStudy, setSelectedStudy] = useState('all')
-
-  const [result, setResult] = useState(null)
-
-  useEffect(() => {
-    fetch(`/api/filtered-salary?country=es&experience=${selectedExperience}&modality=${selectedModality}&gender=${selectedGender}&studies=${selectedStudy}`)
-      .then(res => {
-        if (res.ok) return res.json()
-        throw new Error('Error al obtener los datos')
-      })
-      .then(res => setResult(res.result))
-      .catch(() => setResult(null))
-  }, [selectedExperience, selectedModality, selectedGender, selectedStudy])
+  const {
+    result, selectedStudy, selectedModality,
+    selectedGender, selectedExperience, handleGenderSelect,
+    handleExperienceSelect, handleModalitySelect, handleStudySelect
+  } = useFilters()
 
   return (
     <section id='salaries-filter'>
@@ -36,7 +25,7 @@ export function Filters () {
           <div>
             <Dropdown
               className='w-56 mt-2'
-              onValueChange={(value) => setSelectedGender(value)}
+              onValueChange={(value) => handleGenderSelect(value)}
               placeholder='Filtra por género'
               value={selectedGender}
             >
@@ -51,7 +40,7 @@ export function Filters () {
           <div>
             <Dropdown
               className='w-56 mt-2'
-              onValueChange={(value) => setSelectedExperience(value)}
+              onValueChange={(value) => handleExperienceSelect(value)}
               placeholder='Filtra por experiencia'
               value={selectedExperience}
             >
@@ -66,7 +55,7 @@ export function Filters () {
           <div>
             <Dropdown
               className='w-56 mt-2'
-              onValueChange={(value) => setSelectedModality(value)}
+              onValueChange={(value) => handleModalitySelect(value)}
               placeholder='Filtra por experiencia'
               value={selectedModality}
             >
@@ -81,7 +70,7 @@ export function Filters () {
           <div>
             <Dropdown
               className='w-56 mt-2'
-              onValueChange={(value) => setSelectedStudy(value)}
+              onValueChange={(value) => handleStudySelect(value)}
               placeholder='Filtra por estudios'
               value={selectedStudy}
             >

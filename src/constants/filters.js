@@ -5,7 +5,7 @@ import {
   IconSquareHalf, IconBuildingSkyscraper
 } from '@tabler/icons-react'
 
-import { FriendsIcon, ManIcon, NoGenderIcon, WomanIcon } from './Icons'
+import { FriendsIcon, ManIcon, NoGenderIcon, WomanIcon } from '../components/Icons'
 
 const EXPERIENCE = [
   {
