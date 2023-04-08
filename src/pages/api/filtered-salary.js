@@ -53,7 +53,7 @@ export default async function handler (req, res) {
     const $gender = GENDER[record.gender]
     const $experience = EXPERIENCE[record.experience]
     const $remote = REMOTE_MODALITIES[record.remote]
-    const $study = STUDIES[record.study]
+    const $study = STUDIES[record.studies]
 
     // check if record matches filters
     if (
