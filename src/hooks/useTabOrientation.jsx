@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from 'react'
 
-export function useTabOrientation() {
+export function useTabOrientation () {
   const [tabOrientation, setTabOrientation] = useState('horizontal')
 
   useEffect(() => {

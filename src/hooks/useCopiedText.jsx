@@ -1,8 +1,8 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from 'react'
 
 const ATTRIBUTION_TEXT = 'Datos extraídos de <a href="https://sueldos.dev/">sueldos.dev</a>'
 
-export function useCopiedText() {
+export function useCopiedText () {
   const [copied, setCopied] = useState(false)
 
   useEffect(() => {
