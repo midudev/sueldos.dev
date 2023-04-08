@@ -1,14 +1,10 @@
 import { useFilters } from '@/hooks/useFilters'
 import { Dropdown, DropdownItem, Card } from '@tremor/react'
 import { IconFilter } from '@tabler/icons-react'
-import dynamic from 'next/dynamic'
 import { EXPERIENCE, MODALITY, STUDIES, GENDERS } from '@/constants/filters'
+import AnimatedNumbersContainer from './AnimatedNumbersContainer'
 
 import { SalariesSectionTitle } from './SalariesSectionTitle'
-
-const AnimatedNumbers = dynamic(() => import('react-animated-numbers'), {
-  ssr: false
-})
 
 export function Filters () {
   const {
@@ -84,18 +80,7 @@ export function Filters () {
         </div>
 
         <div className='flex justify-center flex-1'>
-          {
-          result && (
-            <div className='flex flex-col items-center'>
-              <strong className='text-7xl md:text-8xl lg:text-9xl'>
-                <span className='flex'>
-                  <AnimatedNumbers locale='es-ES' includeComma animateToNumber={result.salary} />€
-                </span>
-              </strong>
-              <small className='flex mt-4 text-sm text-gray-500 gap-x-1'>Basado en <AnimatedNumbers locale='es-ES' includeComma animateToNumber={result.count} /> resultados</small>
-            </div>
-          )
-        }
+          <AnimatedNumbersContainer result={result} />
         </div>
 
       </Card>
