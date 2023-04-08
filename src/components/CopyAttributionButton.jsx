@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react'
 import { IconCopy, IconCheck } from '@tabler/icons-react'
 import { Button } from '@/components/Button'
-
-const ATTRIBUTION_TEXT = 'Datos extraídos de <a href="https://sueldos.dev/">sueldos.dev</a>'
+import { ATTRIBUTION_TEXT } from '@/constants'
 
 export function CopyAttributionButton () {
   const [copied, setCopied] = useState(false)

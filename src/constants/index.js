@@ -591,3 +591,5 @@ export const TESTIMONIALS = [
     }
   ]
 ]
+
+export const ATTRIBUTION_TEXT = 'Datos extraídos de <a href="https://sueldos.dev/">sueldos.dev</a>'
