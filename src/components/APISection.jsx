@@ -9,6 +9,7 @@ import { gradientDark as theme } from 'react-syntax-highlighter/dist/cjs/styles/
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
 import { API_FEATURES_LIST } from '@/constants'
+import { CopyAttributionButton } from './CopyAttributionButton'
 
 export function APISection () {
   const [tabOrientation, setTabOrientation] = useState('horizontal')
@@ -50,6 +51,7 @@ export function APISection () {
           <p className='mt-6 text-lg tracking-tight text-blue-100'>
             Usa los datos de sueldos.dev sin límite.<br />Debes <span className='border-b '>añadir un enlace a sueldos.dev en tu sitio web al usar la API.</span>
           </p>
+          <CopyAttributionButton />
         </div>
         <Tab.Group
           as='div'
