@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Dropdown, DropdownItem, Card, Title } from '@tremor/react'
 import { FriendsIcon, ManIcon, NoGenderIcon, WomanIcon } from './Icons'
-import { IconBeach, IconHome, IconSchool, IconBuildingSkyscraper, IconSquareHalf, IconAntennaBars5, IconAntennaBars3, IconUserCode, IconFilter } from '@tabler/icons-react'
+import { IconBeach, IconHome, IconSchool, IconBuildingSkyscraper, IconSquareHalf, IconAntennaBars5, IconAntennaBars3, IconUserCode, IconFilter, IconAward, IconDirections, IconRocket } from '@tabler/icons-react'
 import dynamic from 'next/dynamic'
 
 import { SalariesSectionTitle } from './SalariesSectionTitle'
@@ -84,6 +84,29 @@ const GENDERS = [
   }
 ]
 
+const STUDIES = [
+  {
+    value: 'all',
+    text: 'Cualquier estudio',
+    icon: () => <IconUserCode stroke={1} />
+  },
+  {
+    value: 'self',
+    text: 'Autodidacta',
+    icon: () => <IconDirections stroke={1} />
+  },
+  {
+    value: 'formal',
+    text: 'Universidad o Grado',
+    icon: () => <IconAward stroke={1} />
+  },
+  {
+    value: 'bootcamp',
+    text: 'Bootcamp',
+    icon: () => <IconRocket stroke={1} />
+  }
+]
+
 export function Filters () {
   const [selectedExperience, setSelectedExperience] = useState('all')
   const [selectedModality, setSelectedModality] = useState('all')
@@ -93,7 +116,7 @@ export function Filters () {
   const [result, setResult] = useState(null)
 
   useEffect(() => {
-    fetch(`/api/filtered-salary?country=es&experience=${selectedExperience}&modality=${selectedModality}&gender=${selectedGender}`)
+    fetch(`/api/filtered-salary?country=es&experience=${selectedExperience}&modality=${selectedModality}&gender=${selectedGender}&studies=${selectedStudy}`)
       .then(res => {
         if (res.ok) return res.json()
         throw new Error('Error al obtener los datos')
@@ -146,6 +169,21 @@ export function Filters () {
             >
               {
               MODALITY.map(({ value, text, icon }) => (
+                <DropdownItem className='gap-x-4' key={value} value={value} text={text} icon={icon} />
+              ))
+            }
+            </Dropdown>
+          </div>
+
+          <div>
+            <Dropdown
+              className='w-56 mt-2'
+              onValueChange={(value) => setSelectedStudy(value)}
+              placeholder='Filtra por estudios'
+              value={selectedStudy}
+            >
+              {
+              STUDIES.map(({ value, text, icon }) => (
                 <DropdownItem className='gap-x-4' key={value} value={value} text={text} icon={icon} />
               ))
             }
