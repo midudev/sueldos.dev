@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import clsx from 'clsx'
-import { variantStyles, baseStyles } from '@/constants/button'
+import { variantStyles, baseStyles } from '@/constants/styles'
 
 export function Button ({
   variant = 'solid',

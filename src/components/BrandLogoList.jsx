@@ -1,21 +1,5 @@
-import AdevintaLogo from '@/images/logos/adevinta.webp'
-import GlobantLogo from '@/images/logos/globant.webp'
-import NttDataLogo from '@/images/logos/nttdata.webp'
-import OracleLogo from '@/images/logos/oracle.webp'
-import Stratesys from '@/images/logos/stratesys.webp'
 import Image from 'next/image'
-
-const BRAND_LOGOS = [
-  [
-    { name: 'Adevinta', logo: AdevintaLogo },
-    { name: 'Stratesys', logo: Stratesys },
-    { name: 'Globant', logo: GlobantLogo }
-  ],
-  [
-    { name: 'Oracle', logo: OracleLogo },
-    { name: 'NTT Data', logo: NttDataLogo }
-  ]
-]
+import { BRAND_LOGOS } from '@/constants/styles'
 
 const BrandLogoList = () => {
   return (

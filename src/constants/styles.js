@@ -1,3 +1,21 @@
+import AdevintaLogo from '@/images/logos/adevinta.webp'
+import GlobantLogo from '@/images/logos/globant.webp'
+import NttDataLogo from '@/images/logos/nttdata.webp'
+import OracleLogo from '@/images/logos/oracle.webp'
+import Stratesys from '@/images/logos/stratesys.webp'
+
+export const BRAND_LOGOS = [
+  [
+    { name: 'Adevinta', logo: AdevintaLogo },
+    { name: 'Stratesys', logo: Stratesys },
+    { name: 'Globant', logo: GlobantLogo }
+  ],
+  [
+    { name: 'Oracle', logo: OracleLogo },
+    { name: 'NTT Data', logo: NttDataLogo }
+  ]
+]
+
 export const baseStyles = {
   solid:
     'group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2',
@@ -20,3 +38,5 @@ export const variantStyles = {
       'ring-slate-700 text-white hover:ring-slate-500 active:ring-slate-700 active:text-slate-400 focus-visible:outline-white'
   }
 }
+
+export const formClasses = 'block w-full appearance-none rounded-md border border-gray-200 bg-gray-50 px-3 py-2 text-gray-900 placeholder-gray-400 focus:border-blue-500 focus:bg-white focus:outline-none focus:ring-blue-500 sm:text-sm'
