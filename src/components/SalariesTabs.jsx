@@ -2,10 +2,10 @@ import { TabList, Tab } from '@tremor/react'
 import { IconCash, IconUsersGroup, IconFilter } from '@tabler/icons-react'
 import { useActiveSection } from '@/hooks/useActiveSection'
 import { useActiveTab } from '@/hooks/useActiveTab'
+import { SECTION_IDS_SALARIES_TABS } from '@/constants'
 
 export function SalariesTabs () {
-  const sectionIds = ['salaries-general', 'salaries-users', 'salaries-filter']
-  const { activeSection } = useActiveSection(sectionIds)
+  const { activeSection } = useActiveSection(SECTION_IDS_SALARIES_TABS)
   const { activeTab, handleNavigation } = useActiveTab(activeSection)
 
   return (

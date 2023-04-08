@@ -6,37 +6,7 @@ import { useTabOrientation } from '@/hooks/useTabOrientation'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
-
-const features = [
-  {
-    title: 'Payroll',
-    description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-    image: screenshotPayroll
-  },
-  {
-    title: 'Claim expenses',
-    description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-    image: screenshotExpenses
-  },
-  {
-    title: 'VAT handling',
-    description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-    image: screenshotVatReturns
-  },
-  {
-    title: 'Reporting',
-    description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting
-  }
-]
+import { PRIMARY_FEATURES } from '@/constants'
 
 export function PrimaryFeatures () {
   const { tabOrientation } = useTabOrientation()
@@ -74,7 +44,7 @@ export function PrimaryFeatures () {
             <>
               <div className='flex pb-4 -mx-4 overflow-x-auto sm:mx-0 sm:overflow-visible sm:pb-0 lg:col-span-5'>
                 <Tab.List className='relative z-10 flex px-4 gap-x-4 whitespace-nowrap sm:mx-auto sm:px-0 lg:mx-0 lg:block lg:gap-x-0 lg:gap-y-1 lg:whitespace-normal'>
-                  {features.map((feature, featureIndex) => (
+                  {PRIMARY_FEATURES.map((feature, featureIndex) => (
                     <div
                       key={feature.title}
                       className={clsx(
@@ -112,7 +82,7 @@ export function PrimaryFeatures () {
                 </Tab.List>
               </div>
               <Tab.Panels className='lg:col-span-7'>
-                {features.map((feature) => (
+                {PRIMARY_FEATURES.map((feature) => (
                   <Tab.Panel key={feature.title} unmount={false}>
                     <div className='relative sm:px-6 lg:hidden'>
                       <div className='absolute -inset-x-4 top-[-6.5rem] bottom-[-4.25rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl' />
