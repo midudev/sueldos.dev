@@ -10,18 +10,13 @@ import { SalariesTabs } from './SalariesTabs'
 import { SalariesSectionTitle } from './SalariesSectionTitle'
 import { IconCash } from '@tabler/icons-react'
 import { formatNumberToEur } from '@/utils/formatters'
+import { EXPERINCE_DICTIONARY } from '@/constants'
 
 const calculateSalariesByGenderAndExperience = ({ averageSalaries }) => {
   const { gender, genderAndExperience } = averageSalaries
 
-  const experienceDictionary = {
-    trainee: 'Trainee',
-    junior: 'Junior',
-    senior: 'Senior'
-  }
-
   return Object.entries({ all: gender, ...genderAndExperience }).map(([key, gender]) => {
-    const experienceKey = experienceDictionary[key] ?? 'Todos'
+    const experienceKey = EXPERINCE_DICTIONARY[key] ?? 'Todos'
 
     return {
       Experiencia: experienceKey,

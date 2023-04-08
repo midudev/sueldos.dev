@@ -1,6 +1,7 @@
 import { TabList, Tab } from '@tremor/react'
 import { IconCash, IconUsersGroup, IconFilter } from '@tabler/icons-react'
 import { useEffect, useState } from 'react'
+import { SECTION_IDS_SALARIES_TABS } from '@/constants'
 
 export function useActiveSection (sectionIds, options) {
   const [activeSection, setActiveSection] = useState(null)
@@ -39,8 +40,7 @@ export function useActiveSection (sectionIds, options) {
 
 export function SalariesTabs () {
   const [activeTab, setActiveTab] = useState('salaries-general')
-  const sectionIds = ['salaries-general', 'salaries-users', 'salaries-filter']
-  const activeSection = useActiveSection(sectionIds)
+  const activeSection = useActiveSection(SECTION_IDS_SALARIES_TABS)
 
   useEffect(() => {
     if (activeSection) {
