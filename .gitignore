@@ -30,3 +30,7 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# IDEs and editors
+.idea
+.vscode
