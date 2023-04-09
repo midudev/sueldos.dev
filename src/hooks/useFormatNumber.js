@@ -5,7 +5,13 @@ const initialProps = {
 }
 
 export function useNumberFormat (props = initialProps) {
-  const numberFormat = new Intl.NumberFormat(props.locale, { ...(props.currency && { style: 'currency', currency: props.currency }), maximumFractionDigits: props.maximumFractionDigits })
+  const numberFormat = new Intl.NumberFormat(props.locale, {
+    maximumFractionDigits: props.maximumFractionDigits,
+    ...(props.currency && {
+      style: 'currency',
+      currency: props.currency
+    })
+  })
   const formatNumber = (value) => numberFormat.format(value)
 
   return {
