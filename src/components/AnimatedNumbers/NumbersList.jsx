@@ -16,9 +16,7 @@ export default function NumbersList ({ numbers, dynamicFont }) {
 
   useEffect(() => {
     handleSetStyles()
-  }, [numbers])
 
-  useEffect(() => {
     if (dynamicFont) {
       window.addEventListener('resize', handleSetStyles)
     }
