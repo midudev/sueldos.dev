@@ -12,9 +12,9 @@ export const useCopyToClipboard = (textToCopy) => {
     return () => clearTimeout(timeoutId)
   }, [copied])
 
-  const handleCopyAttribution = () => {
+  const handleCopy = () => {
     navigator.clipboard.writeText(textToCopy).then(() => setCopied(true))
   }
 
-  return { handleCopyAttribution, copied }
+  return { handleCopy, copied }
 }
