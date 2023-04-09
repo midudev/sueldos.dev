@@ -13,7 +13,8 @@ export default function AnimatedNumberCounter ({ number, locale = 'es-ES', curre
     const maxDelay = 2000
     let delay = 250
     const step = (number * delay) / maxDelay
-    for (let value = 0; value <= number + step; value += step) {
+
+    for (let value = 0; value <= number; value += step) {
       const timeoutId = setTimeout(() => {
         setAnimatedNumber(formatNumber(value))
       }, delay)
@@ -35,7 +36,7 @@ export default function AnimatedNumberCounter ({ number, locale = 'es-ES', curre
             if (isNaN(+value) || isSpace) return value
 
             return (
-              <Number
+              <AnimatedNumber
                 key={crypto.randomUUID()}
                 value={+value}
                 animationReverse={(+index % 2) === 0}
@@ -47,7 +48,7 @@ export default function AnimatedNumberCounter ({ number, locale = 'es-ES', curre
   )
 }
 
-function Number ({ value, animationReverse }) {
+function AnimatedNumber ({ value, animationReverse }) {
   const nextValue = value + 1 > 9 ? 0 : value + 1
   const prevValue = value - 1 < 0 ? 9 : value - 1
   return (
