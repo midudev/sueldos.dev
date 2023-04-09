@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react'
-import { Dropdown, DropdownItem, Card, Title } from '@tremor/react'
+import { Dropdown, DropdownItem, Card } from '@tremor/react'
 import { FriendsIcon, ManIcon, NoGenderIcon, WomanIcon } from './Icons'
 import { IconBeach, IconHome, IconSchool, IconBuildingSkyscraper, IconSquareHalf, IconAntennaBars5, IconAntennaBars3, IconUserCode, IconFilter, IconAward, IconDirections, IconRocket } from '@tabler/icons-react'
 import dynamic from 'next/dynamic'
 
 import { SalariesSectionTitle } from './SalariesSectionTitle'
 
-const AnimatedNumbers = dynamic(() => import('react-animated-numbers'), {
+const AnimatedNumbers = dynamic(() => import('./AnimatedNumbers'), {
   ssr: false
 })
 
@@ -197,10 +197,10 @@ export function Filters () {
             <div className='flex flex-col items-center'>
               <strong className='text-7xl md:text-8xl lg:text-9xl'>
                 <span className='flex'>
-                  <AnimatedNumbers locale='es-ES' includeComma animateToNumber={result.salary} />€
+                  <AnimatedNumbers number={result.salary} currency='EUR' />
                 </span>
               </strong>
-              <small className='flex mt-4 text-sm text-gray-500 gap-x-1'>Basado en <AnimatedNumbers locale='es-ES' includeComma animateToNumber={result.count} /> resultados</small>
+              <small className='flex mt-4 text-sm text-gray-500 gap-x-1'>Basado en <AnimatedNumbers number={result.count} /> resultados</small>
             </div>
           )
         }
