@@ -238,3 +238,5 @@ export const FAQs = [
     }
   ]
 ]
+
+export const ATTRIBUTION_TEXT = 'Datos extraídos de <a href="https://sueldos.dev/">sueldos.dev</a>'

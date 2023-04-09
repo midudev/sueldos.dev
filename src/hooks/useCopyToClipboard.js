@@ -1,9 +1,8 @@
 import { useState, useEffect } from 'react'
 
-const ATTRIBUTION_TEXT = 'Datos extraídos de <a href="https://sueldos.dev/">sueldos.dev</a>'
-
-export const useCopyAttribution = () => {
+export const useCopyToClipboard = (textToCopy) => {
   const [copied, setCopied] = useState(false)
+  console.log(textToCopy)
 
   useEffect(() => {
     if (!copied) return
@@ -14,7 +13,7 @@ export const useCopyAttribution = () => {
   }, [copied])
 
   const handleCopyAttribution = () => {
-    navigator.clipboard.writeText(ATTRIBUTION_TEXT).then(() => setCopied(true))
+    navigator.clipboard.writeText(textToCopy).then(() => setCopied(true))
   }
 
   return { handleCopyAttribution, copied }
