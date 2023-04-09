@@ -3,7 +3,7 @@ import { useNumberFormat } from '@/hooks/useFormatNumber'
 
 import classes from './animated-numbers.module.css'
 
-export default function AnimatedNumberCounter ({ number, locale = 'es-ES', currency, maximumFractionDigits = 0 }) {
+export default function AnimatedNumbers ({ number, locale = 'es-ES', currency, maximumFractionDigits = 0 }) {
   const { formatNumber } = useNumberFormat({ locale, currency, maximumFractionDigits })
 
   const [animatedNumber, setAnimatedNumber] = useState(formatNumber(0))
