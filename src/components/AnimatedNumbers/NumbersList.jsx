@@ -22,7 +22,7 @@ export default function NumbersList ({ numbers, dynamicFont }) {
     }
 
     return () => {
-      window.removeEventListener('reset', handleSetStyles)
+      window.removeEventListener('resize', handleSetStyles)
     }
   }, [])
 

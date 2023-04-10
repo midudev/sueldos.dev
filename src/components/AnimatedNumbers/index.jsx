@@ -18,10 +18,14 @@ export default function AnimatedNumbers ({ number, dynamicFont, locale = 'es-ES'
       }
     })
 
-    observer.observe(numbersRef.current)
+    if (numbersRef.current) {
+      observer.observe(numbersRef.current)
+    }
 
     return () => {
-      observer.unobserve(numbersRef.current)
+      if (numbersRef.current) {
+        observer.unobserve(numbersRef.current)
+      }
     }
   }, [])
 

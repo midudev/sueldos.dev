@@ -1,26 +1,13 @@
-import { useEffect, useState } from 'react'
+import { useCopyToClipboard } from '@/hooks/useCopyToClipboard'
 import { IconCopy, IconCheck } from '@tabler/icons-react'
 import { Button } from '@/components/Button'
-
-const ATTRIBUTION_TEXT = 'Datos extraídos de <a href="https://sueldos.dev/">sueldos.dev</a>'
+import { ATTRIBUTION_TEXT } from '@/constants'
 
 export function CopyAttributionButton () {
-  const [copied, setCopied] = useState(false)
-
-  useEffect(() => {
-    if (!copied) return
-
-    const timeoutId = setTimeout(() => setCopied(false), 2500)
-
-    return () => clearTimeout(timeoutId)
-  }, [copied])
-
-  const handleCopyAttribution = () => {
-    navigator.clipboard.writeText(ATTRIBUTION_TEXT).then(() => setCopied(true))
-  }
+  const { handleCopy, copied } = useCopyToClipboard(ATTRIBUTION_TEXT)
 
   return (
-    <Button onClick={handleCopyAttribution} className='flex gap-2 items-center justify-center my-6 md:mx-auto self-center text-sm'>
+    <Button onClick={handleCopy} className='flex gap-2 items-center justify-center my-6 md:mx-auto self-center text-sm'>
       <span>
         Datos extraídos de <span className='underline'>sueldos.dev</span>
       </span>

@@ -1,78 +1,7 @@
 import { IconUsersGroup } from '@tabler/icons-react'
 import { Grid, Card, Title, DonutChart, Legend } from '@tremor/react'
 import { SalariesSectionTitle } from './SalariesSectionTitle'
-
-const generateGender = count => {
-  return [
-    {
-      name: 'Hombre',
-      count: count.gender.man
-    },
-    {
-      name: 'Mujer',
-      count: count.gender.woman
-    },
-    {
-      name: 'Sin definir',
-      count: count.gender.noGender
-    }
-  ]
-}
-
-const generateExperience = count => {
-  return [
-    {
-      name: 'Trainee',
-      count: count.experience.trainee
-    },
-    {
-      name: 'Junior',
-      count: count.experience.junior
-    },
-    {
-      name: 'Senior',
-      count: count.experience.senior
-    }
-  ]
-}
-
-const generateModality = count => {
-  return [
-    {
-      name: '100% Remoto',
-      count: count.modality.remote
-    },
-    {
-      name: 'Casi remoto',
-      count: count.modality.mostlyRemote
-    },
-    {
-      name: 'Híbrido',
-      count: count.modality.hybrid
-    },
-    {
-      name: 'Oficina',
-      count: count.modality.office
-    }
-  ]
-}
-
-const generateStudies = count => {
-  return [
-    {
-      name: 'Autodidacta',
-      count: count.studies.self
-    },
-    {
-      name: 'Universidad o Grado',
-      count: count.studies.formal
-    },
-    {
-      name: 'Bootcamp',
-      count: count.studies.bootcamp
-    }
-  ]
-}
+import { generateExperience, generateGender, generateModality, generateStudies } from '@/service/generators'
 
 export function ProfileResults ({ count }) {
   return (
@@ -89,12 +18,12 @@ export function ProfileResults ({ count }) {
             data={generateGender(count)}
             category='count'
             index='name'
-            colors={['cyan', 'pink', 'amber']}
+            colors={['purple', 'blue', 'pink']}
           />
           <Legend
             className='justify-center mt-3 text-center'
             categories={['Hombre', 'Mujer', 'Sin definir']}
-            colors={['cyan', 'pink', 'amber']}
+            colors={['purple', 'blue', 'pink']}
           />
         </Card>
         <Card className='max-w-lg'>
@@ -107,12 +36,12 @@ export function ProfileResults ({ count }) {
             data={generateExperience(count)}
             category='count'
             index='name'
-            colors={['yellow', 'indigo', 'black']}
+            colors={['purple', 'blue', 'pink']}
           />
           <Legend
             className='justify-center mt-3 text-center'
             categories={['Trainee', 'Junior', 'Senior']}
-            colors={['yellow', 'indigo', 'black']}
+            colors={['purple', 'blue', 'pink']}
           />
         </Card>
         <Card className='max-w-lg'>
@@ -125,12 +54,12 @@ export function ProfileResults ({ count }) {
             data={generateModality(count)}
             category='count'
             index='name'
-            colors={['sky', 'lime', 'orange', 'gray']}
+            colors={['purple', 'blue', 'pink', 'indigo']}
           />
           <Legend
             className='justify-center mt-3 text-center'
             categories={['100% Remoto', 'Casi remoto', 'Híbrido', 'Oficina']}
-            colors={['sky', 'lime', 'orange', 'gray']}
+            colors={['purple', 'blue', 'pink', 'indigo']}
           />
         </Card>
         <Card className='max-w-lg'>
@@ -143,12 +72,12 @@ export function ProfileResults ({ count }) {
             data={generateStudies(count)}
             category='count'
             index='name'
-            colors={['pink', 'blue', 'teal']}
+            colors={['purple', 'blue', 'pink']}
           />
           <Legend
             className='justify-center mt-3 text-center'
             categories={['Autodidacta', 'Universidad o Grado', 'Bootcamp']}
-            colors={['pink', 'blue', 'teal']}
+            colors={['purple', 'blue', 'pink']}
           />
         </Card>
       </Grid>
