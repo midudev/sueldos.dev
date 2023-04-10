@@ -1,78 +1,7 @@
 import { IconUsersGroup } from '@tabler/icons-react'
 import { Grid, Card, Title, DonutChart, Legend } from '@tremor/react'
 import { SalariesSectionTitle } from './SalariesSectionTitle'
-
-const generateGender = count => {
-  return [
-    {
-      name: 'Hombre',
-      count: count.gender.man
-    },
-    {
-      name: 'Mujer',
-      count: count.gender.woman
-    },
-    {
-      name: 'Sin definir',
-      count: count.gender.noGender
-    }
-  ]
-}
-
-const generateExperience = count => {
-  return [
-    {
-      name: 'Trainee',
-      count: count.experience.trainee
-    },
-    {
-      name: 'Junior',
-      count: count.experience.junior
-    },
-    {
-      name: 'Senior',
-      count: count.experience.senior
-    }
-  ]
-}
-
-const generateModality = count => {
-  return [
-    {
-      name: '100% Remoto',
-      count: count.modality.remote
-    },
-    {
-      name: 'Casi remoto',
-      count: count.modality.mostlyRemote
-    },
-    {
-      name: 'Híbrido',
-      count: count.modality.hybrid
-    },
-    {
-      name: 'Oficina',
-      count: count.modality.office
-    }
-  ]
-}
-
-const generateStudies = count => {
-  return [
-    {
-      name: 'Autodidacta',
-      count: count.studies.self
-    },
-    {
-      name: 'Universidad o Grado',
-      count: count.studies.formal
-    },
-    {
-      name: 'Bootcamp',
-      count: count.studies.bootcamp
-    }
-  ]
-}
+import { generateExperience, generateGender, generateModality, generateStudies } from '@/service/generators'
 
 export function ProfileResults ({ count }) {
   return (

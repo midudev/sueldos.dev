@@ -3,14 +3,7 @@ import {
   Text,
   CategoryBar
 } from '@tremor/react'
-
-const data = {
-  title: 'Felicidad por su salario',
-  metric: 65,
-  subCategoryPercentageValues: [20, 20, 20, 20, 20],
-  subCategroyColors: ['red', 'orange', 'yellow', 'lime', 'green'],
-  subCategoryTitles: []
-}
+import { data } from '@/constants/dataAndFeatures'
 
 export function Happiness () {
   return (
