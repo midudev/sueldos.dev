@@ -2,6 +2,7 @@ import dynamic from 'next/dynamic'
 import { useCopyToClipboard } from '@/hooks/useCopyToClipboard'
 import { IconCopy, IconCheck } from '@tabler/icons-react'
 import { Button } from './Button'
+import { getEstimatedPercentage } from '@/utils/formatters'
 
 const AnimatedNumbers = dynamic(() => import('react-animated-numbers'), {
   ssr: false
@@ -26,6 +27,7 @@ const AnimatedNumbersContainer = ({ result }) => {
         </span>
       </strong>
       <small className='flex mt-4 text-sm text-gray-500 gap-x-1'>Basado en <AnimatedNumbers locale='es-ES' includeComma animateToNumber={result.count} /> resultados</small>
+      <small className='flex mt-4 text-sm text-gray-500 gap-x-1'>Equivalentes al <AnimatedNumbers locale='es-ES' includeComma animateToNumber={getEstimatedPercentage(result.count, 750)} />% de los encuestados totales</small>
     </div>
   )
 }
