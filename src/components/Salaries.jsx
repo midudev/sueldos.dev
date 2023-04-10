@@ -10,6 +10,7 @@ import { SalariesTabs } from './SalariesTabs'
 import { SalariesSectionTitle } from './SalariesSectionTitle'
 import { IconCash } from '@tabler/icons-react'
 import { formatNumberToEur } from '@/utils/formatters'
+import { averageSalaryOn2022 } from '@/constants/dataAndFeatures'
 
 const calculateSalariesByGenderAndExperience = ({ averageSalaries }) => {
   const { gender, genderAndExperience } = averageSalaries
@@ -67,7 +68,7 @@ export function Salaries ({ averageSalaries, count }) {
                   <Text className='text-6xl font-bold text-center text-green-900'>{formatNumberToEur(averageSalaries.total)}</Text>
                   <Flex justifyContent='center' className='mt-4 space-x-2'>
                     <BadgeDelta deltaType='moderateIncrease' />
-                    <Text className='font-semibold text-green-700'>+7200€</Text>
+                    <Text className='font-semibold text-green-700'>+{formatNumberToEur(averageSalaries.total - averageSalaryOn2022)}€</Text>
                     <Text className='truncate'> que el sueldo medio del país</Text>
                   </Flex>
                 </div>

@@ -37,3 +37,5 @@ export const data = {
   subCategroyColors: ['red', 'orange', 'yellow', 'lime', 'green'],
   subCategoryTitles: []
 }
+
+export const averageSalaryOn2022 = 25165.51 // Estimated data retrieved from https://www.enterat.com/actualidad/salario-medio-espana.php
