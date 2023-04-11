@@ -3,7 +3,7 @@ import { useMemo } from 'react'
 import { Container } from '@/components/Container'
 import { BarChartComponent } from './BarChart'
 import { Filters } from './Filters'
-import { SpainFlag } from './Flags'
+// import { SpainFlag } from './Flags'
 import { Happiness } from './Happiness'
 import { SalariesByExperience } from './SalariesByExperience'
 import { ProfileResults } from './ProfileResults'
@@ -14,6 +14,7 @@ import { formatNumberToEur, getEstimatedPercentage } from '@/utils/formatters'
 import { averageSalaryOn2022 } from '@/constants/dataAndFeatures'
 import { calculateSalariesByGenderAndExperience } from '../service/salariesCalculator'
 import { getGeolocation } from '@/service/geolocation'
+import { SELECTED_COUNTRIES_STATS } from '@/constants/CountriesDictionary'
 
 export function Salaries ({ averageSalaries, count }) {
   useMemo(() => getGeolocation(), [])
@@ -27,7 +28,7 @@ export function Salaries ({ averageSalaries, count }) {
       <Container>
         <header className='mb-8'>
           <h2 className='flex items-center justify-center max-w-4xl mx-auto text-3xl font-medium tracking-tight font-display text-slate-900 sm:text-5xl gap-x-2'>
-            Salarios en España <SpainFlag />
+            Salarios en {SELECTED_COUNTRIES_STATS.España.name} {SELECTED_COUNTRIES_STATS.España.flag}
           </h2>
           <small className='block text-center opacity-80'>Basado en un total de {count.total} sueldos anónimos</small>
         </header>
