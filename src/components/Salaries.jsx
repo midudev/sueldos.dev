@@ -11,26 +11,7 @@ import { SalariesSectionTitle } from './SalariesSectionTitle'
 import { IconCash } from '@tabler/icons-react'
 import { formatNumberToEur, getEstimatedPercentage } from '@/utils/formatters'
 import { averageSalaryOn2022 } from '@/constants/dataAndFeatures'
-
-const calculateSalariesByGenderAndExperience = ({ averageSalaries }) => {
-  const { gender, genderAndExperience } = averageSalaries
-
-  const experienceDictionary = {
-    trainee: 'Trainee',
-    junior: 'Junior',
-    senior: 'Senior'
-  }
-
-  return Object.entries({ all: gender, ...genderAndExperience }).map(([key, gender]) => {
-    const experienceKey = experienceDictionary[key] ?? 'Todos'
-
-    return {
-      Experiencia: experienceKey,
-      Hombre: Math.round(gender.man),
-      Mujer: Math.round(gender.woman)
-    }
-  })
-}
+import { calculateSalariesByGenderAndExperience } from '../service/salariesCalculator'
 
 export function Salaries ({ averageSalaries, count }) {
   return (
