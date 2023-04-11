@@ -1,5 +1,4 @@
 import { Card, Title, Text, Grid, Col, BadgeDelta, Flex, Dropdown, DropdownItem } from '@tremor/react'
-import { useState, useEffect } from 'react'
 import { Container } from '@/components/Container'
 import { BarChartComponent } from './BarChart'
 import { Filters } from './Filters'
@@ -10,36 +9,13 @@ import { SalariesTabs } from './SalariesTabs'
 import { SalariesSectionTitle } from './SalariesSectionTitle'
 import { IconCash } from '@tabler/icons-react'
 import { formatNumberToEur, getEstimatedPercentage } from '@/utils/formatters'
-import { averageSalaryOn2022 } from '@/constants/dataAndFeatures'
+import { averageSalaryOn2022, LIST_OF_CONTRIES } from '@/constants/dataAndFeatures'
 import { calculateSalariesByGenderAndExperience } from '../service/salariesCalculator'
-import { getGeolocation } from '@/service/geolocation'
-import { SELECTED_COUNTRIES_STATS, LIST_OF_CONTRIES } from '@/constants/CountriesDictionary'
-
-const useUserCountry = () => {
-  const [selectedCountry, setSelectedCountry] = useState('')
-  const [cleanValue, setCleanValue] = useState('')
-
-  const handleCountrySelect = (country) => {
-    setSelectedCountry(country)
-    setCleanValue('')
-  }
-
-  useEffect(() => {
-    if (typeof window === 'undefined') return
-    const savedGeolocalization = window.localStorage.getItem('country')
-    savedGeolocalization ? setSelectedCountry(savedGeolocalization) : getGeolocation()
-  }, [])
-
-  const showingCountryName = selectedCountry
-    ? SELECTED_COUNTRIES_STATS[selectedCountry].name
-    : SELECTED_COUNTRIES_STATS.España.name
-
-  const showingCountryFlag = selectedCountry
-    ? SELECTED_COUNTRIES_STATS[selectedCountry].flag
-    : SELECTED_COUNTRIES_STATS.España.flag
-}
+import { useUserCountry } from '@/hooks/useUserCountry'
 
 export function Salaries ({ averageSalaries, count }) {
+  const { showingCountryFlag, showingCountryName, handleCountrySelect, cleanValue } = useUserCountry()
+
   return (
     <section
       id='sueldos'

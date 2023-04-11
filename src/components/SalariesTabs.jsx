@@ -2,10 +2,26 @@ import { TabList, Tab } from '@tremor/react'
 import { IconCash, IconUsersGroup, IconFilter } from '@tabler/icons-react'
 import { useEffect, useState } from 'react'
 
-export function useActiveSection (sectionIds, options) {
+export function useActiveSection (options) {
   const [activeSection, setActiveSection] = useState(null)
+  const [activeTab, setActiveTab] = useState('salaries-general')
+
+  // Tabs switching logic 👇
+  const handleNavigation = (hash) => {
+    setActiveTab(hash)
+    location.hash = hash
+    document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' })
+  }
 
   useEffect(() => {
+    if (activeSection) {
+      setActiveTab(activeSection)
+    }
+  }, [activeSection])
+
+  // Section following logic 👇
+  useEffect(() => {
+    const sectionIds = ['salaries-general', 'salaries-users', 'salaries-filter']
     const observer = new IntersectionObserver(
       (entries) => {
         const visibleSection = entries.find((entry) => entry.isIntersecting)
@@ -32,27 +48,13 @@ export function useActiveSection (sectionIds, options) {
         }
       })
     }
-  }, [sectionIds, options])
+  }, [options])
 
-  return activeSection
+  return { activeTab, handleNavigation }
 }
 
 export function SalariesTabs () {
-  const [activeTab, setActiveTab] = useState('salaries-general')
-  const sectionIds = ['salaries-general', 'salaries-users', 'salaries-filter']
-  const activeSection = useActiveSection(sectionIds)
-
-  useEffect(() => {
-    if (activeSection) {
-      setActiveTab(activeSection)
-    }
-  }, [activeSection])
-
-  const handleNavigation = (hash) => {
-    setActiveTab(hash)
-    location.hash = hash
-    document.getElementById(hash)?.scrollIntoView({ behavior: 'smooth' })
-  }
+  const { activeTab, handleNavigation } = useActiveSection()
 
   return (
     <TabList
