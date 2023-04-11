@@ -1,5 +1,5 @@
-import { Card, Title, Text, Grid, Col, BadgeDelta, Flex } from '@tremor/react'
-import { useMemo } from 'react'
+import { Card, Title, Text, Grid, Col, BadgeDelta, Flex, Dropdown, DropdownItem } from '@tremor/react'
+import { useState } from 'react'
 import { Container } from '@/components/Container'
 import { BarChartComponent } from './BarChart'
 import { Filters } from './Filters'
@@ -13,12 +13,25 @@ import { IconCash } from '@tabler/icons-react'
 import { formatNumberToEur, getEstimatedPercentage } from '@/utils/formatters'
 import { averageSalaryOn2022 } from '@/constants/dataAndFeatures'
 import { calculateSalariesByGenderAndExperience } from '../service/salariesCalculator'
-import { getGeolocation } from '@/service/geolocation'
-import { SELECTED_COUNTRIES_STATS } from '@/constants/CountriesDictionary'
+// import { getGeolocation } from '@/service/geolocation'
+import { SELECTED_COUNTRIES_STATS, LIST_OF_CONTRIES } from '@/constants/CountriesDictionary'
 
 export function Salaries ({ averageSalaries, count }) {
-  useMemo(() => getGeolocation(), [])
+  // useMemo(() => getGeolocation(), [])
+  const [selectedCountry, setSelectedCountry] = useState('')
+  const [cleanValue, setCleanValue] = useState('')
+  const handleCountrySelect = (country) => {
+    setSelectedCountry(country)
+    setCleanValue('')
+  }
 
+  const showingCountryName = selectedCountry
+    ? SELECTED_COUNTRIES_STATS[selectedCountry].name
+    : SELECTED_COUNTRIES_STATS.España.name
+
+  const showingCountryFlag = selectedCountry
+    ? SELECTED_COUNTRIES_STATS[selectedCountry].flag
+    : SELECTED_COUNTRIES_STATS.España.flag
   return (
     <section
       id='sueldos'
@@ -28,7 +41,24 @@ export function Salaries ({ averageSalaries, count }) {
       <Container>
         <header className='mb-8'>
           <h2 className='flex items-center justify-center max-w-4xl mx-auto text-3xl font-medium tracking-tight font-display text-slate-900 sm:text-5xl gap-x-2'>
-            Salarios en {SELECTED_COUNTRIES_STATS.España.name} {SELECTED_COUNTRIES_STATS.España.flag}
+            Salarios en {showingCountryName} {showingCountryFlag}
+            <Dropdown
+              className='w-10 relative z-20'
+              placeholder='Elige un país'
+              onValueChange={(value) => handleCountrySelect(value)}
+              value={cleanValue}
+            >
+              {
+                LIST_OF_CONTRIES.map(country => (
+                  <DropdownItem
+                    key={country}
+                    value={country}
+                    text={country}
+                  />
+
+                ))
+              }
+            </Dropdown>
           </h2>
           <small className='block text-center opacity-80'>Basado en un total de {count.total} sueldos anónimos</small>
         </header>

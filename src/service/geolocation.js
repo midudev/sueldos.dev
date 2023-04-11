@@ -1,13 +1,13 @@
 // Using Geolocation Web API to get user coordinates and country
-export const getGeolocation = () => {
-  const onSuccess = async (position) => {
-    const { latitude, longitude } = position.coords
-    const country = await getCountry(latitude, longitude) ?? ''
-    console.log(country)
-  }
+// export const getGeolocation = () => {
+//   const onSuccess = async (position) => {
+//     const { latitude, longitude } = position.coords
+//     const country = await getCountry(latitude, longitude) ?? ''
+//     console.log(country)
+//   }
 
-  navigator.geolocation.getCurrentPosition(onSuccess)
-}
+// navigator.geolocation.getCurrentPosition(onSuccess)
+// }
 
 // Using OpenStreet API to get country by user coordinates
 async function getCountry (latitude, longitude) {
