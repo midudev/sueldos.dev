@@ -1,4 +1,5 @@
 import { Card, Title, Text, Grid, Col, BadgeDelta, Flex } from '@tremor/react'
+import { useEffect } from 'react'
 import { Container } from '@/components/Container'
 import { BarChartComponent } from './BarChart'
 import { Filters } from './Filters'
@@ -12,8 +13,13 @@ import { IconCash } from '@tabler/icons-react'
 import { formatNumberToEur, getEstimatedPercentage } from '@/utils/formatters'
 import { averageSalaryOn2022 } from '@/constants/dataAndFeatures'
 import { calculateSalariesByGenderAndExperience } from '../service/salariesCalculator'
+import { getGeolocation } from '@/service/geolocation'
 
 export function Salaries ({ averageSalaries, count }) {
+  useEffect(() => {
+    getGeolocation()
+  }, [])
+
   return (
     <section
       id='sueldos'
