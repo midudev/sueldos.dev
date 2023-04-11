@@ -1,5 +1,5 @@
 import { Card, Title, Text, Grid, Col, BadgeDelta, Flex } from '@tremor/react'
-import { useEffect } from 'react'
+import { useMemo } from 'react'
 import { Container } from '@/components/Container'
 import { BarChartComponent } from './BarChart'
 import { Filters } from './Filters'
@@ -16,9 +16,7 @@ import { calculateSalariesByGenderAndExperience } from '../service/salariesCalcu
 import { getGeolocation } from '@/service/geolocation'
 
 export function Salaries ({ averageSalaries, count }) {
-  useEffect(() => {
-    getGeolocation()
-  }, [])
+  useMemo(() => getGeolocation(), [])
 
   return (
     <section
