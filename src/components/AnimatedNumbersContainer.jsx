@@ -3,7 +3,7 @@ import { useCopyToClipboard } from '@/hooks/useCopyToClipboard'
 import { IconCopy, IconCheck } from '@tabler/icons-react'
 import { Button } from './Button'
 
-const AnimatedNumbers = dynamic(() => import('react-animated-numbers'), {
+const AnimatedNumbers = dynamic(() => import('./AnimatedNumbers'), {
   ssr: false
 })
 
@@ -15,7 +15,7 @@ const AnimatedNumbersContainer = ({ result }) => {
     <div className='flex flex-col items-center'>
       <strong className='text-7xl md:text-8xl lg:text-9xl'>
         <span className='flex flex-col md:flex-row'>
-          <div className='flex'><AnimatedNumbers locale='es-ES' includeComma animateToNumber={result.salary} />€</div>
+          <div className='flex'><AnimatedNumbers number={result.salary} currency='EUR' dynamicFont /></div>
           <Button
             onClick={handleCopy}
             variant='outline'
@@ -25,7 +25,7 @@ const AnimatedNumbersContainer = ({ result }) => {
           </Button>
         </span>
       </strong>
-      <small className='flex mt-4 text-sm text-gray-500 gap-x-1'>Basado en <AnimatedNumbers locale='es-ES' includeComma animateToNumber={result.count} /> resultados</small>
+      <small className='flex mt-4 text-sm text-gray-500 gap-x-1'>Basado en <AnimatedNumbers number={result.count} /> resultados</small>
     </div>
   )
 }

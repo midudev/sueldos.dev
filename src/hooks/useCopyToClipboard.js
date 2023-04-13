@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 
 export const useCopyToClipboard = (textToCopy) => {
   const [copied, setCopied] = useState(false)
-  console.log(textToCopy)
 
   useEffect(() => {
     if (!copied) return
