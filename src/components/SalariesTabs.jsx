@@ -58,7 +58,7 @@ export function SalariesTabs () {
     <TabList
       value={activeTab}
       onValueChange={(value) => handleNavigation(value)}
-      className=' sticky top-0 z-50 justify-center mt-6 text-center bg-white'
+      className=' sticky top-0 z-50 justify-center mt-6 text-center bg-white dark:bg-slate-950'
     >
       <Tab value='salaries-general' text='Resultados generales' icon={IconCash} />
       <Tab value='salaries-users' text='Perfil encuestados' icon={IconUsersGroup} />
