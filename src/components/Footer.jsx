@@ -4,6 +4,8 @@ import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { GitHubIcon, TwitterIcon } from '@/components/Icons'
 
+import { GITHUB_URL, TWITTER_URL } from '@/constants'
+
 export function Footer () {
   return (
     <footer className='bg-slate-50'>
@@ -14,18 +16,16 @@ export function Footer () {
         <div className='flex flex-col items-center py-10 border-t border-slate-400/10 sm:flex-row-reverse sm:justify-between'>
           <div className='flex gap-x-6'>
             <Link
-              target='_blank'
-              href='https://twitter.com/midudev'
+              href={TWITTER_URL}
               className='group'
               aria-label='Twitter de Midudev'
             >
               <TwitterIcon />
             </Link>
             <Link
-              target='_blank'
-              href='https://github.com/midudev'
+              href={GITHUB_URL}
               className='group'
-              aria-label='sueldos.dev on GitHub'
+              aria-label='midudev on GitHub'
             >
               <GitHubIcon />
             </Link>
