@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { getFilteredSalaries } from '@/service/filteredSalaries'
 
 export const useFilters = () => {
   const [selectedExperience, setSelectedExperience] = useState('all')
@@ -14,11 +15,7 @@ export const useFilters = () => {
   const handleStudySelect = (studies) => setSelectedStudy(studies)
 
   useEffect(() => {
-    fetch(`/api/filtered-salary?country=es&experience=${selectedExperience}&modality=${selectedModality}&gender=${selectedGender}&studies=${selectedStudy}`)
-      .then(res => {
-        if (res.ok) return res.json()
-        throw new Error('Error al obtener los datos')
-      })
+    getFilteredSalaries(selectedExperience, selectedModality, selectedGender, selectedStudy)
       .then(res => setResult(res.result))
       .catch(() => setResult(null))
   }, [selectedExperience, selectedModality, selectedGender, selectedStudy])
