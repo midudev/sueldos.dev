@@ -15,7 +15,7 @@ const BrandLogoList = () => {
           >
             {group.map((company) => (
               <li key={company.name} className='flex'>
-                <Image className='opacity-50 invert' width={100} src={company.logo} alt={company.name} />
+                <Image className='opacity-50 invert dark:invert-0' width={100} src={company.logo} alt={company.name} />
               </li>
             ))}
           </ul>

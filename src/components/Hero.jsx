@@ -12,9 +12,9 @@ export function Hero () {
           filter: 'blur(118px)'
         }}
       />
-      <h1 className='max-w-4xl mx-auto text-5xl font-medium tracking-tight font-display text-slate-900 sm:text-7xl'>
+      <h1 className='max-w-4xl mx-auto text-5xl font-medium tracking-tight font-display text-slate-900 dark:text-slate-200 sm:text-7xl'>
         Descubre{' '}
-        <span className='relative text-blue-600 whitespace-nowrap'>
+        <span className='relative text-blue-600 dark:text-blue-400 whitespace-nowrap'>
           <svg
             aria-hidden='true'
             viewBox='0 0 418 42'
@@ -27,7 +27,7 @@ export function Hero () {
         </span>{' '}
         en el mundo de la programación
       </h1>
-      <p className='max-w-xl mx-auto mt-6 text-lg tracking-tight text-slate-700'>
+      <p className='max-w-xl mx-auto mt-6 text-lg tracking-tight text-slate-700 dark:text-slate-200'>
         Recopilamos datos de forma anónima para que puedas comparar tu sueldo con el de otros desarrolladores.
       </p>
       <div className='flex justify-center mt-10 gap-x-6'>
@@ -37,7 +37,7 @@ export function Hero () {
         </Button>
       </div>
       <div className='mt-36 lg:mt-44'>
-        <p className='text-sm font-display text-slate-700'>
+        <p className='text-sm font-display text-slate-700 dark:text-slate-200'>
           Tenemos datos de empresas como:
         </p>
         <BrandLogoList />

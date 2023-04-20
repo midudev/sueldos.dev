@@ -8,7 +8,7 @@ export function ProfileResults ({ count }) {
     <>
       <SalariesSectionTitle id='salaries-users' icon={<IconUsersGroup />} title='Perfil encuestados' />
       <Grid numColsSm={2} numColsLg={4} className='gap-6'>
-        <Card className='max-w-lg'>
+        <Card className='max-w-lg dark:bg-slate-300'>
           <Title className='text-center'>
             Por género
           </Title>
@@ -26,7 +26,7 @@ export function ProfileResults ({ count }) {
             colors={['purple', 'blue', 'pink']}
           />
         </Card>
-        <Card className='max-w-lg'>
+        <Card className='max-w-lg dark:bg-slate-300'>
           <Title className='text-center'>
             Por experiencia
           </Title>
@@ -44,7 +44,7 @@ export function ProfileResults ({ count }) {
             colors={['purple', 'blue', 'pink']}
           />
         </Card>
-        <Card className='max-w-lg'>
+        <Card className='max-w-lg dark:bg-slate-300'>
           <Title className='text-center'>
             Modalidad
           </Title>
@@ -62,7 +62,7 @@ export function ProfileResults ({ count }) {
             colors={['purple', 'blue', 'pink', 'indigo']}
           />
         </Card>
-        <Card className='max-w-lg'>
+        <Card className='max-w-lg dark:bg-slate-300'>
           <Title className='text-center'>
             Estudios
           </Title>

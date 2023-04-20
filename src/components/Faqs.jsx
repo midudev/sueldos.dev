@@ -9,26 +9,26 @@ export function Faqs () {
     <section
       id='faq'
       aria-labelledby='faq-title'
-      className='relative py-20 overflow-hidden bg-slate-50 sm:py-32'
+      className='relative py-20 overflow-hidden bg-slate-50 dark:bg-[rgba(0,0,0,0.85)] sm:py-32'
     >
       <Image
-        className='absolute top-0 left-1/2 max-w-none translate-x-[-30%] -translate-y-1/4'
+        className='absolute top-0 left-1/2 max-w-none translate-x-[-30%] -translate-y-1/4 dark:invert'
         src={backgroundImage}
         alt=''
         width={1558}
         height={946}
         unoptimized
       />
-      <Container className='relative'>
+      <Container className='relative dark:bg-[rgba(0,0,0,0.15)] py-4'>
         <div className='max-w-2xl mx-auto lg:mx-0'>
           <h2
             id='faq-title'
-            className='text-3xl tracking-tight font-display text-slate-900 sm:text-4xl'
+            className='text-3xl tracking-tight font-display text-slate-900 dark:text-white sm:text-4xl'
           >
             Preguntas frecuentes
           </h2>
-          <p className='mt-4 text-lg tracking-tight text-slate-700'>
-            Si no encuentras aquí tu pregunta, puedes acceder al <a className='underline transition-all hover:text-blue-800' href={DISCORD_URL}>Discord de la comunidad</a> para que te ayuden.
+          <p className='mt-4 text-lg tracking-tight text-slate-700 dark:text-slate-400'>
+            Si no encuentras aquí tu pregunta, puedes acceder al <a className='underline transition-all hover:text-blue-800 dark:hover:text-blue-400' href={DISCORD_URL}>Discord de la comunidad</a> para que te ayuden.
           </p>
         </div>
         <ul
@@ -40,10 +40,10 @@ export function Faqs () {
               <ul role='list' className='flex flex-col gap-y-8'>
                 {column.map((faq, faqIndex) => (
                   <li key={faqIndex}>
-                    <h3 className='text-lg leading-6 font-display text-slate-900'>
+                    <h3 className='text-lg leading-6 font-display text-slate-900 dark:text-white'>
                       {faq.question}
                     </h3>
-                    <p className='mt-1 text-sm text-slate-700'>{faq.answer}</p>
+                    <p className='mt-1 text-sm text-slate-700 dark:text-slate-400'>{faq.answer}</p>
                   </li>
                 ))}
               </ul>

@@ -1,9 +1,15 @@
+import dynamic from 'next/dynamic'
 import { MobileNavigation } from './MobileNavigation'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
+import ThemeProvider from '@/contexts/Theme'
 import Link from 'next/link'
+
+const ThemeToggle = dynamic(() => import('@/components/ThemeToggle'), {
+  ssr: false
+})
 
 export function Header () {
   return (
@@ -29,6 +35,11 @@ export function Header () {
                 Añade tu sueldo
               </span>
             </Button>
+            <ThemeProvider>
+              <div className='w-[74px]'>
+                <ThemeToggle />
+              </div>
+            </ThemeProvider>
             <div className='-mr-1 md:hidden'>
               <MobileNavigation />
             </div>
