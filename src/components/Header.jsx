@@ -1,9 +1,10 @@
+import Link from 'next/link'
+
 import { MobileNavigation } from './MobileNavigation'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
-import Link from 'next/link'
 
 export function Header () {
   return (
