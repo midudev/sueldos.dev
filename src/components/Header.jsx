@@ -16,11 +16,11 @@ export function Header () {
     <header className='py-10'>
       <Container>
         <nav className='relative z-50 flex justify-between'>
-          <div className='flex items-center md:gap-x-12'>
+          <div className='flex items-center md:gap-x-8'>
             <Link href='/' aria-label='Página principal' className='flex'>
               <Logo className='w-auto h-8' />
             </Link>
-            <div className='hidden md:flex md:gap-x-6'>
+            <div className='hidden md:flex md:gap-x-4'>
               <NavLink href='#sueldos'>Sueldos</NavLink>
               <NavLink href='#api'>API</NavLink>
               <NavLink href='#faq'>Preguntas frecuentes</NavLink>
