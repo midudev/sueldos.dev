@@ -14,12 +14,12 @@ const AnimatedNumbersContainer = ({ result }) => {
   return (
     <div className='flex flex-col items-center'>
       <strong className='text-7xl md:text-8xl lg:text-9xl'>
-        <span className='flex flex-col md:flex-row'>
+        <span className='flex flex-col md:flex-row gap-0 md:gap-4'>
           <div className='flex'><AnimatedNumbers number={result.salary} currency='EUR' dynamicFont /></div>
           <Button
             onClick={handleCopy}
             variant='outline'
-            className=' self-center mt-3 md:mt-6 md:self-start'
+            className=' self-center mt-3 md:mt-6 md:self-start dark:hover:bg-slate-400'
           >
             {copied ? <IconCheck /> : <IconCopy />}
           </Button>

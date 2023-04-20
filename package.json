@@ -11,13 +11,17 @@
   "dependencies": {
     "@headlessui/react": "1.7.13",
     "@heroicons/react": "2.0.17",
+    "@radix-ui/react-dropdown-menu": "^2.0.4",
     "@tabler/icons-react": "2.13.1",
     "@tremor/react": "2.1.0",
     "autoprefixer": "10.4.14",
+    "class-variance-authority": "^0.5.2",
     "clsx": "1.2.1",
     "csv": "6.2.8",
     "focus-visible": "5.2.0",
+    "lucide-react": "^0.161.0",
     "next": "13.2.4",
+    "next-themes": "^0.2.1",
     "postcss": "8.4.21",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -27,8 +31,8 @@
     "use-count-up": "^3.0.1"
   },
   "devDependencies": {
-    "standard": "^17.0.0",
     "eslint": "8.37.0",
-    "eslint-config-next": "13.2.4"
+    "eslint-config-next": "13.2.4",
+    "standard": "^17.0.0"
   }
 }

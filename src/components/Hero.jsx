@@ -1,4 +1,5 @@
-import { Button } from '@/components/Button'
+// import { Button } from '@/components/Button'
+import { Button } from '@/components/ui/Button'
 import { Container } from '@/components/Container'
 
 import BrandLogoList from './BrandLogoList'
@@ -12,7 +13,7 @@ export function Hero () {
           filter: 'blur(118px)'
         }}
       />
-      <h1 className='max-w-4xl mx-auto text-5xl font-medium tracking-tight font-display text-slate-900 sm:text-7xl'>
+      <h1 className='max-w-4xl mx-auto text-5xl font-medium tracking-tight font-display text-slate-900 dark:text-slate-50 sm:text-7xl'>
         Descubre{' '}
         <span className='relative text-blue-600 whitespace-nowrap'>
           <svg
@@ -27,17 +28,17 @@ export function Hero () {
         </span>{' '}
         en el mundo de la programación
       </h1>
-      <p className='max-w-xl mx-auto mt-6 text-lg tracking-tight text-slate-700'>
+      <p className='max-w-xl mx-auto mt-6 text-lg tracking-tight text-slate-700 dark:text-slate-100'>
         Recopilamos datos de forma anónima para que puedas comparar tu sueldo con el de otros desarrolladores.
       </p>
       <div className='flex justify-center mt-10 gap-x-6'>
-        <Button href='#sueldos'>Quiero ver los sueldos</Button>
-        <Button href='#faq' variant='outline'>
+        <Button className='rounded-full' href='#sueldos'>Quiero ver los sueldos</Button>
+        <Button className='rounded-full' href='#faq' variant='outline'>
           <span>¿De dónde salen los datos?</span>
         </Button>
       </div>
       <div className='mt-36 lg:mt-44'>
-        <p className='text-sm font-display text-slate-700'>
+        <p className='text-sm font-display text-slate-700 dark:text-slate-100'>
           Tenemos datos de empresas como:
         </p>
         <BrandLogoList />

@@ -5,11 +5,11 @@ export default function Document (props) {
 
   return (
     <Html
-      className="h-full scroll-smooth bg-white antialiased [font-feature-settings:'ss01']"
+      className="h-full scroll-smooth antialiased [font-feature-settings:'ss01']"
       lang='en'
     >
       <Head />
-      <body className='flex flex-col h-full'>
+      <body className='flex flex-col h-full bg-white text-slate-950 dark:text-white dark:bg-slate-950'>
         <Main />
         <NextScript />
       </body>
