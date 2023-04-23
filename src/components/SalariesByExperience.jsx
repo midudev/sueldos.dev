@@ -23,10 +23,10 @@ const data = [
 export function SalariesByExperience ({ averageSalaries }) {
   return (
     <>
-      <h2 className='text-lg font-medium text-gray-700'>Sueldos por modalidad de trabajo y experiencia</h2>
+      <h2 className='text-lg font-medium text-gray-700 dark:text-slate-200'>Sueldos por modalidad de trabajo y experiencia</h2>
       <Grid id='salaries-general' numColsSm={2} numColsLg={3} className='gap-6 mt-6'>
         {data.map((item) => (
-          <Card key={item.category}>
+          <Card className='dark:bg-slate-300' key={item.category}>
 
             <header className='flex justify-between'>
               <div className='flex items-center justify-center font-semibold gap-x-2'>

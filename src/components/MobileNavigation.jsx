@@ -1,5 +1,6 @@
 import { Popover, Transition } from '@headlessui/react'
 import { Fragment } from 'react'
+import { Button } from '@/components/Button'
 import Link from 'next/link'
 import clsx from 'clsx'
 
@@ -22,7 +23,7 @@ export function MobileNavigation () {
           leaveFrom='opacity-100'
           leaveTo='opacity-0'
         >
-          <Popover.Overlay className='fixed inset-0 bg-slate-300/50' />
+          <Popover.Overlay className='fixed inset-0 bg-slate-300/50 dark:bg-slate-800/70' />
         </Transition.Child>
         <Transition.Child
           as={Fragment}
@@ -35,11 +36,16 @@ export function MobileNavigation () {
         >
           <Popover.Panel
             as='div'
-            className='absolute inset-x-0 flex flex-col p-4 mt-4 text-lg tracking-tight origin-top bg-white shadow-xl top-full rounded-2xl text-slate-900 ring-1 ring-slate-900/5'
+            className='absolute inset-x-0 flex flex-col p-4 mt-4 text-lg tracking-tight origin-top bg-white shadow-xl dark:bg-slate-900 dark:text-slate-200 top-full rounded-2xl text-slate-900 ring-1 ring-slate-900/5'
           >
             <MobileNavLink href='#sueldos'>Sueldos</MobileNavLink>
             <MobileNavLink href='#api'>API</MobileNavLink>
             <MobileNavLink href='#faq'>Preguntas frecuentes</MobileNavLink>
+            <Button className='self-center w-full max-w-[300px] mt-4' disabled href='/register' color='blue'>
+              <span>
+                Añade tu sueldo
+              </span>
+            </Button>
             {/* <hr className='m-2 border-slate-300/40' />
             <MobileNavLink href='/login'>Sign in</MobileNavLink> */}
           </Popover.Panel>
@@ -61,7 +67,7 @@ function MobileNavIcon ({ open }) {
   return (
     <svg
       aria-hidden='true'
-      className='h-3.5 w-3.5 overflow-visible stroke-slate-700'
+      className='h-3.5 w-3.5 overflow-visible stroke-slate-700 dark:stroke-slate-200'
       fill='none'
       strokeWidth={2}
       strokeLinecap='round'

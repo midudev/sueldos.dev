@@ -3,11 +3,11 @@ import { Card, BarChart, Title, Text } from '@tremor/react'
 
 export function BarChartComponent ({ data, title, subtitle }) {
   return (
-    <Card>
+    <Card className='dark:bg-slate-300'>
       <Title>{title}</Title>
       <Text>{subtitle}</Text>
       <BarChart
-        className='mt-4 h-80'
+        className='mt-4 dark:bg-slate-300 h-80'
         data={data}
         index='Experiencia'
         categories={['Hombre', 'Mujer']}
