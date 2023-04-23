@@ -1,5 +1,6 @@
 import { Popover, Transition } from '@headlessui/react'
 import { Fragment } from 'react'
+import { Button } from '@/components/Button'
 import Link from 'next/link'
 import clsx from 'clsx'
 
@@ -40,6 +41,11 @@ export function MobileNavigation () {
             <MobileNavLink href='#sueldos'>Sueldos</MobileNavLink>
             <MobileNavLink href='#api'>API</MobileNavLink>
             <MobileNavLink href='#faq'>Preguntas frecuentes</MobileNavLink>
+            <Button className='self-center w-full max-w-[300px] mt-4' disabled href='/register' color='blue'>
+              <span>
+                Añade tu sueldo
+              </span>
+            </Button>
             {/* <hr className='m-2 border-slate-300/40' />
             <MobileNavLink href='/login'>Sign in</MobileNavLink> */}
           </Popover.Panel>

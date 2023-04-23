@@ -30,7 +30,7 @@ export function Header () {
             <div className='hidden'>
               <NavLink href='/login'>Iniciar sesión</NavLink>
             </div>
-            <Button disabled href='/register' color='blue'>
+            <Button className='hidden md:inline-flex' disabled href='/register' color='blue'>
               <span>
                 Añade tu sueldo
               </span>
