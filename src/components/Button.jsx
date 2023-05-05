@@ -17,7 +17,7 @@ export function Button ({
     disabled && 'opacity-50 cursor-not-allowed'
   )
 
-  return href
+  return href && !disabled
     ? (
       <Link href={href} className={className} {...props} />
       )
