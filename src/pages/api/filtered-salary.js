@@ -28,7 +28,6 @@ const GENDER = {
 }
 
 function matchFilter (filterValue, recordValue) {
-  console.log(filterValue)
   if (filterValue === undefined || filterValue === 'all') return true
   return filterValue === recordValue
 }
