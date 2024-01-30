@@ -17,11 +17,16 @@ export function Button ({
     disabled && 'opacity-50 cursor-not-allowed'
   )
 
-  return href
-    ? (
-      <Link href={href} className={className} {...props} />
-      )
-    : (
-      <button className={className} {...props} />
-      )
+  if (href) {
+    return (
+      <Link
+        href={disabled ? 'javascript:void(0)' : href}
+        className={className}
+        aria-disabled={disabled}
+        {...props}
+      />
+    )
+  }
+
+  return <button className={className} disabled={disabled} {...props} />
 }
