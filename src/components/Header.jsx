@@ -4,6 +4,7 @@ import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
 import Link from 'next/link'
+import { ThemeToggle } from '@/components/theme-toggle'
 
 export function Header () {
   return (
@@ -29,6 +30,9 @@ export function Header () {
                 Añade tu sueldo
               </span>
             </Button>
+            <div className='hidden md:block'>
+            <ThemeToggle />
+            </div>
             <div className='-mr-1 md:hidden'>
               <MobileNavigation />
             </div>

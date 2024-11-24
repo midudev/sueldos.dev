@@ -5,3 +5,22 @@
 #__next {
   min-height: 100%;
 }
+
+@layer utilities {
+  .card-dark {
+    @apply dark:bg-slate-900 dark:text-slate-100;
+  }
+}
+
+/* Tremor graphics */
+.tremor-BarList-labelText {
+  @apply dark:text-slate-300;
+}
+
+.tremor-CategoryBar-labels {
+  @apply dark:text-slate-300;
+}
+
+.tremor-Legend-legendItem {
+  @apply dark:text-slate-300;
+}

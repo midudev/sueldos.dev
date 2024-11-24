@@ -8,8 +8,8 @@ export function ProfileResults ({ count }) {
     <>
       <SalariesSectionTitle id='salaries-users' icon={<IconUsersGroup />} title='Perfil encuestados' />
       <Grid numColsSm={2} numColsLg={4} className='gap-6'>
-        <Card className='max-w-lg'>
-          <Title className='text-center'>
+        <Card className='max-w-lg card-dark'>
+          <Title className='text-center dark:text-slate-100'>
             Por género
           </Title>
           <DonutChart
@@ -26,8 +26,8 @@ export function ProfileResults ({ count }) {
             colors={['purple', 'blue', 'pink']}
           />
         </Card>
-        <Card className='max-w-lg'>
-          <Title className='text-center'>
+        <Card className='max-w-lg card-dark'>
+          <Title className='text-center dark:text-slate-100'>
             Por experiencia
           </Title>
           <DonutChart
@@ -44,8 +44,8 @@ export function ProfileResults ({ count }) {
             colors={['purple', 'blue', 'pink']}
           />
         </Card>
-        <Card className='max-w-lg'>
-          <Title className='text-center'>
+        <Card className='max-w-lg card-dark'>
+          <Title className='text-center dark:text-slate-100'>
             Modalidad
           </Title>
           <DonutChart
@@ -62,8 +62,8 @@ export function ProfileResults ({ count }) {
             colors={['purple', 'blue', 'pink', 'indigo']}
           />
         </Card>
-        <Card className='max-w-lg'>
-          <Title className='text-center'>
+        <Card className='max-w-lg card-dark'>
+          <Title className='text-center dark:text-slate-100'>
             Estudios
           </Title>
           <DonutChart

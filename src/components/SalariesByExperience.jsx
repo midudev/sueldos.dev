@@ -23,10 +23,10 @@ const data = [
 export function SalariesByExperience ({ averageSalaries }) {
   return (
     <>
-      <h2 className='text-lg font-medium text-gray-700'>Sueldos por modalidad de trabajo y experiencia</h2>
+      <h2 className='text-lg font-medium opacity-60 dark:opacity-90'>Sueldos por modalidad de trabajo y experiencia</h2>
       <Grid id='salaries-general' numColsSm={2} numColsLg={3} className='gap-6 mt-6'>
         {data.map((item) => (
-          <Card key={item.category}>
+          <Card key={item.category} className="card-dark">
 
             <header className='flex justify-between'>
               <div className='flex items-center justify-center font-semibold gap-x-2'>
@@ -37,15 +37,15 @@ export function SalariesByExperience ({ averageSalaries }) {
               <div
                 className='flex flex-col items-center justify-center'
               >
-                <Metric>{formatNumberToEur(averageSalaries.modality[item.field])}</Metric>
-                <Text>media sueldo anual</Text>
+                <Metric className='dark:text-slate-100'>{formatNumberToEur(averageSalaries.modality[item.field])}</Metric>
+                <Text className='dark:text-slate-200'>media sueldo anual</Text>
               </div>
 
             </header>
 
             <Flex className='mt-6'>
-              <Text>Experiencia</Text>
-              <Text className='text-right'>Sueldo</Text>
+              <Text className='dark:text-slate-100'>Experiencia</Text>
+              <Text className='text-right dark:text-slate-100'>Sueldo</Text>
             </Flex>
             <BarList
               data={[

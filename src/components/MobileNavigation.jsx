@@ -22,7 +22,7 @@ export function MobileNavigation () {
           leaveFrom='opacity-100'
           leaveTo='opacity-0'
         >
-          <Popover.Overlay className='fixed inset-0 bg-slate-300/50' />
+          <Popover.Overlay className='fixed inset-0 bg-slate-300/50 dark:bg-slate-700/80' />
         </Transition.Child>
         <Transition.Child
           as={Fragment}
@@ -35,7 +35,7 @@ export function MobileNavigation () {
         >
           <Popover.Panel
             as='div'
-            className='absolute inset-x-0 flex flex-col p-4 mt-4 text-lg tracking-tight origin-top bg-white shadow-xl top-full rounded-2xl text-slate-900 ring-1 ring-slate-900/5'
+            className='absolute inset-x-0 flex flex-col p-4 mt-4 text-lg tracking-tight origin-top bg-white shadow-xl top-full rounded-2xl text-slate-900 ring-1 ring-slate-900/5 dark:bg-slate-950 dark:text-slate-100'
           >
             <MobileNavLink href='#sueldos'>Sueldos</MobileNavLink>
             <MobileNavLink href='#api'>API</MobileNavLink>
